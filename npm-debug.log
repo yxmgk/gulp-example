@@ -1,0 +1,2104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\shiguoqing\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'browser-sync',
+1 verbose cli   '-save-dev' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData browser-sync
+8 silly fetchNamedPackageData browser-sync
+9 silly mapToRegistry name browser-sync
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'browser-sync',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'browser-sync',
+12 silly mapToRegistry   name: 'browser-sync',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+14 verbose request uri https://registry.npmjs.org/browser-sync
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 14:30:11
+17 verbose request id f4ae2c766220efcd
+18 verbose etag W/"5876b277-808c8"
+19 verbose lastModified Wed, 11 Jan 2017 22:32:23 GMT
+20 http request GET https://registry.npmjs.org/browser-sync
+21 http 304 https://registry.npmjs.org/browser-sync
+22 verbose headers { date: 'Fri, 13 Jan 2017 06:30:07 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"5876b277-808c8"',
+22 verbose headers   age: '164',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1484289007.536570,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Fri, 13 Jan 2017 06:30:07 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"5876b277-808c8"',
+23 silly get     age: '164',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-itm7427-ITM',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1484289007.536570,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/browser-sync from cache
+25 verbose get saving browser-sync to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\browser-sync\.cache.json
+26 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule browser-sync@2.18.6 checking installable status
+40 silly cache add args [ 'browser-sync', null ]
+41 verbose cache add spec browser-sync
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'browser-sync',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'browser-sync',
+42 silly cache add   name: 'browser-sync',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed browser-sync@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for browser-sync
+45 info addNameTag [ 'browser-sync', 'latest' ]
+46 silly mapToRegistry name browser-sync
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'browser-sync',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'browser-sync',
+49 silly mapToRegistry   name: 'browser-sync',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+51 verbose addNameTag registry:https://registry.npmjs.org/browser-sync not in flight; fetching
+52 verbose get https://registry.npmjs.org/browser-sync not expired, no request
+53 silly addNameTag next cb for browser-sync with tag latest
+54 silly addNamed browser-sync@2.18.6
+55 verbose addNamed "2.18.6" is a plain semver version for browser-sync
+56 silly cache afterAdd browser-sync@2.18.6
+57 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\browser-sync\2.18.6\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\browser-sync\2.18.6\package\package.json written
+60 silly fetchNamedPackageData browser-sync-client
+61 silly mapToRegistry name browser-sync-client
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'browser-sync-client',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'browser-sync-client',
+64 silly mapToRegistry   name: 'browser-sync-client',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/browser-sync-client
+66 silly fetchNamedPackageData browser-sync-ui
+67 silly mapToRegistry name browser-sync-ui
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'browser-sync-ui',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'browser-sync-ui',
+70 silly mapToRegistry   name: 'browser-sync-ui',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/browser-sync-ui
+72 silly fetchNamedPackageData bs-recipes
+73 silly mapToRegistry name bs-recipes
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'bs-recipes',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'bs-recipes',
+76 silly mapToRegistry   name: 'bs-recipes',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/bs-recipes
+78 silly fetchNamedPackageData chokidar
+79 silly mapToRegistry name chokidar
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'chokidar',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'chokidar',
+82 silly mapToRegistry   name: 'chokidar',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/chokidar
+84 silly fetchNamedPackageData connect
+85 silly mapToRegistry name connect
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'connect',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'connect',
+88 silly mapToRegistry   name: 'connect',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/connect
+90 silly fetchNamedPackageData dev-ip
+91 silly mapToRegistry name dev-ip
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'dev-ip',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'dev-ip',
+94 silly mapToRegistry   name: 'dev-ip',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/dev-ip
+96 silly fetchNamedPackageData easy-extender
+97 silly mapToRegistry name easy-extender
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry data Result {
+100 silly mapToRegistry   raw: 'easy-extender',
+100 silly mapToRegistry   scope: null,
+100 silly mapToRegistry   escapedName: 'easy-extender',
+100 silly mapToRegistry   name: 'easy-extender',
+100 silly mapToRegistry   rawSpec: '',
+100 silly mapToRegistry   spec: 'latest',
+100 silly mapToRegistry   type: 'tag' }
+101 silly mapToRegistry uri https://registry.npmjs.org/easy-extender
+102 silly fetchNamedPackageData eazy-logger
+103 silly mapToRegistry name eazy-logger
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'eazy-logger',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   escapedName: 'eazy-logger',
+106 silly mapToRegistry   name: 'eazy-logger',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/eazy-logger
+108 silly fetchNamedPackageData emitter-steward
+109 silly mapToRegistry name emitter-steward
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry data Result {
+112 silly mapToRegistry   raw: 'emitter-steward',
+112 silly mapToRegistry   scope: null,
+112 silly mapToRegistry   escapedName: 'emitter-steward',
+112 silly mapToRegistry   name: 'emitter-steward',
+112 silly mapToRegistry   rawSpec: '',
+112 silly mapToRegistry   spec: 'latest',
+112 silly mapToRegistry   type: 'tag' }
+113 silly mapToRegistry uri https://registry.npmjs.org/emitter-steward
+114 silly fetchNamedPackageData fs-extra
+115 silly mapToRegistry name fs-extra
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry data Result {
+118 silly mapToRegistry   raw: 'fs-extra',
+118 silly mapToRegistry   scope: null,
+118 silly mapToRegistry   escapedName: 'fs-extra',
+118 silly mapToRegistry   name: 'fs-extra',
+118 silly mapToRegistry   rawSpec: '',
+118 silly mapToRegistry   spec: 'latest',
+118 silly mapToRegistry   type: 'tag' }
+119 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+120 silly fetchNamedPackageData http-proxy
+121 silly mapToRegistry name http-proxy
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'http-proxy',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   escapedName: 'http-proxy',
+124 silly mapToRegistry   name: 'http-proxy',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+126 silly fetchNamedPackageData immutable
+127 silly mapToRegistry name immutable
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry data Result {
+130 silly mapToRegistry   raw: 'immutable',
+130 silly mapToRegistry   scope: null,
+130 silly mapToRegistry   escapedName: 'immutable',
+130 silly mapToRegistry   name: 'immutable',
+130 silly mapToRegistry   rawSpec: '',
+130 silly mapToRegistry   spec: 'latest',
+130 silly mapToRegistry   type: 'tag' }
+131 silly mapToRegistry uri https://registry.npmjs.org/immutable
+132 silly fetchNamedPackageData localtunnel
+133 silly mapToRegistry name localtunnel
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'localtunnel',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   escapedName: 'localtunnel',
+136 silly mapToRegistry   name: 'localtunnel',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri https://registry.npmjs.org/localtunnel
+138 silly fetchNamedPackageData opn
+139 silly mapToRegistry name opn
+140 silly mapToRegistry using default registry
+141 silly mapToRegistry registry https://registry.npmjs.org/
+142 silly mapToRegistry data Result {
+142 silly mapToRegistry   raw: 'opn',
+142 silly mapToRegistry   scope: null,
+142 silly mapToRegistry   escapedName: 'opn',
+142 silly mapToRegistry   name: 'opn',
+142 silly mapToRegistry   rawSpec: '',
+142 silly mapToRegistry   spec: 'latest',
+142 silly mapToRegistry   type: 'tag' }
+143 silly mapToRegistry uri https://registry.npmjs.org/opn
+144 silly fetchNamedPackageData portscanner
+145 silly mapToRegistry name portscanner
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry data Result {
+148 silly mapToRegistry   raw: 'portscanner',
+148 silly mapToRegistry   scope: null,
+148 silly mapToRegistry   escapedName: 'portscanner',
+148 silly mapToRegistry   name: 'portscanner',
+148 silly mapToRegistry   rawSpec: '',
+148 silly mapToRegistry   spec: 'latest',
+148 silly mapToRegistry   type: 'tag' }
+149 silly mapToRegistry uri https://registry.npmjs.org/portscanner
+150 silly fetchNamedPackageData qs
+151 silly mapToRegistry name qs
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry data Result {
+154 silly mapToRegistry   raw: 'qs',
+154 silly mapToRegistry   scope: null,
+154 silly mapToRegistry   escapedName: 'qs',
+154 silly mapToRegistry   name: 'qs',
+154 silly mapToRegistry   rawSpec: '',
+154 silly mapToRegistry   spec: 'latest',
+154 silly mapToRegistry   type: 'tag' }
+155 silly mapToRegistry uri https://registry.npmjs.org/qs
+156 silly fetchNamedPackageData resp-modifier
+157 silly mapToRegistry name resp-modifier
+158 silly mapToRegistry using default registry
+159 silly mapToRegistry registry https://registry.npmjs.org/
+160 silly mapToRegistry data Result {
+160 silly mapToRegistry   raw: 'resp-modifier',
+160 silly mapToRegistry   scope: null,
+160 silly mapToRegistry   escapedName: 'resp-modifier',
+160 silly mapToRegistry   name: 'resp-modifier',
+160 silly mapToRegistry   rawSpec: '',
+160 silly mapToRegistry   spec: 'latest',
+160 silly mapToRegistry   type: 'tag' }
+161 silly mapToRegistry uri https://registry.npmjs.org/resp-modifier
+162 silly fetchNamedPackageData rx
+163 silly mapToRegistry name rx
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry https://registry.npmjs.org/
+166 silly mapToRegistry data Result {
+166 silly mapToRegistry   raw: 'rx',
+166 silly mapToRegistry   scope: null,
+166 silly mapToRegistry   escapedName: 'rx',
+166 silly mapToRegistry   name: 'rx',
+166 silly mapToRegistry   rawSpec: '',
+166 silly mapToRegistry   spec: 'latest',
+166 silly mapToRegistry   type: 'tag' }
+167 silly mapToRegistry uri https://registry.npmjs.org/rx
+168 silly fetchNamedPackageData serve-index
+169 silly mapToRegistry name serve-index
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry data Result {
+172 silly mapToRegistry   raw: 'serve-index',
+172 silly mapToRegistry   scope: null,
+172 silly mapToRegistry   escapedName: 'serve-index',
+172 silly mapToRegistry   name: 'serve-index',
+172 silly mapToRegistry   rawSpec: '',
+172 silly mapToRegistry   spec: 'latest',
+172 silly mapToRegistry   type: 'tag' }
+173 silly mapToRegistry uri https://registry.npmjs.org/serve-index
+174 silly fetchNamedPackageData serve-static
+175 silly mapToRegistry name serve-static
+176 silly mapToRegistry using default registry
+177 silly mapToRegistry registry https://registry.npmjs.org/
+178 silly mapToRegistry data Result {
+178 silly mapToRegistry   raw: 'serve-static',
+178 silly mapToRegistry   scope: null,
+178 silly mapToRegistry   escapedName: 'serve-static',
+178 silly mapToRegistry   name: 'serve-static',
+178 silly mapToRegistry   rawSpec: '',
+178 silly mapToRegistry   spec: 'latest',
+178 silly mapToRegistry   type: 'tag' }
+179 silly mapToRegistry uri https://registry.npmjs.org/serve-static
+180 silly fetchNamedPackageData server-destroy
+181 silly mapToRegistry name server-destroy
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'server-destroy',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   escapedName: 'server-destroy',
+184 silly mapToRegistry   name: 'server-destroy',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri https://registry.npmjs.org/server-destroy
+186 silly fetchNamedPackageData socket.io
+187 silly mapToRegistry name socket.io
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry data Result {
+190 silly mapToRegistry   raw: 'socket.io',
+190 silly mapToRegistry   scope: null,
+190 silly mapToRegistry   escapedName: 'socket.io',
+190 silly mapToRegistry   name: 'socket.io',
+190 silly mapToRegistry   rawSpec: '',
+190 silly mapToRegistry   spec: 'latest',
+190 silly mapToRegistry   type: 'tag' }
+191 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+192 silly fetchNamedPackageData socket.io-client
+193 silly mapToRegistry name socket.io-client
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry data Result {
+196 silly mapToRegistry   raw: 'socket.io-client',
+196 silly mapToRegistry   scope: null,
+196 silly mapToRegistry   escapedName: 'socket.io-client',
+196 silly mapToRegistry   name: 'socket.io-client',
+196 silly mapToRegistry   rawSpec: '',
+196 silly mapToRegistry   spec: 'latest',
+196 silly mapToRegistry   type: 'tag' }
+197 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+198 silly fetchNamedPackageData ua-parser-js
+199 silly mapToRegistry name ua-parser-js
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npmjs.org/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'ua-parser-js',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'ua-parser-js',
+202 silly mapToRegistry   name: 'ua-parser-js',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri https://registry.npmjs.org/ua-parser-js
+204 silly fetchNamedPackageData yargs
+205 silly mapToRegistry name yargs
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'yargs',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   escapedName: 'yargs',
+208 silly mapToRegistry   name: 'yargs',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri https://registry.npmjs.org/yargs
+210 verbose request uri https://registry.npmjs.org/browser-sync-client
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 14:30:13
+213 verbose etag W/"584d4262-133f3"
+214 verbose lastModified Sun, 11 Dec 2016 12:11:14 GMT
+215 http request GET https://registry.npmjs.org/browser-sync-client
+216 verbose request uri https://registry.npmjs.org/bs-recipes
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 14:30:13
+219 verbose etag W/"586f57d6-69a7"
+220 verbose lastModified Fri, 06 Jan 2017 08:39:50 GMT
+221 http request GET https://registry.npmjs.org/bs-recipes
+222 verbose request uri https://registry.npmjs.org/dev-ip
+223 verbose request no auth needed
+224 info attempt registry request try #1 at 14:30:13
+225 verbose etag W/"54a7f58d-337e"
+226 verbose lastModified Sat, 03 Jan 2015 13:58:37 GMT
+227 http request GET https://registry.npmjs.org/dev-ip
+228 verbose request uri https://registry.npmjs.org/browser-sync-ui
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 14:30:13
+231 verbose etag W/"584d2dd4-202d7"
+232 verbose lastModified Sun, 11 Dec 2016 10:43:32 GMT
+233 http request GET https://registry.npmjs.org/browser-sync-ui
+234 verbose request uri https://registry.npmjs.org/easy-extender
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 14:30:13
+237 verbose etag W/"56581aa7-338f"
+238 verbose lastModified Fri, 27 Nov 2015 08:56:07 GMT
+239 http request GET https://registry.npmjs.org/easy-extender
+240 verbose request uri https://registry.npmjs.org/chokidar
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 14:30:13
+243 verbose etag W/"5865d62f-1bb1b"
+244 verbose lastModified Fri, 30 Dec 2016 03:36:15 GMT
+245 http request GET https://registry.npmjs.org/chokidar
+246 verbose request uri https://registry.npmjs.org/emitter-steward
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 14:30:13
+249 verbose etag W/"55db6dea-b27"
+250 verbose lastModified Mon, 24 Aug 2015 19:18:02 GMT
+251 http request GET https://registry.npmjs.org/emitter-steward
+252 verbose request uri https://registry.npmjs.org/eazy-logger
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 14:30:13
+255 verbose etag W/"582412b8-6a98"
+256 verbose lastModified Thu, 10 Nov 2016 06:24:56 GMT
+257 http request GET https://registry.npmjs.org/eazy-logger
+258 verbose request uri https://registry.npmjs.org/fs-extra
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 14:30:13
+261 verbose etag W/"5874f2d5-1e9cb"
+262 verbose lastModified Tue, 10 Jan 2017 14:42:29 GMT
+263 http request GET https://registry.npmjs.org/fs-extra
+264 verbose request uri https://registry.npmjs.org/localtunnel
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 14:30:13
+267 verbose etag W/"5874b3d0-7363"
+268 verbose lastModified Tue, 10 Jan 2017 10:13:36 GMT
+269 http request GET https://registry.npmjs.org/localtunnel
+270 verbose request uri https://registry.npmjs.org/http-proxy
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 14:30:13
+273 verbose etag W/"58770170-23cf0"
+274 verbose lastModified Thu, 12 Jan 2017 04:09:20 GMT
+275 http request GET https://registry.npmjs.org/http-proxy
+276 verbose request uri https://registry.npmjs.org/opn
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 14:30:13
+279 verbose etag W/"586c8beb-5afc"
+280 verbose lastModified Wed, 04 Jan 2017 05:45:15 GMT
+281 http request GET https://registry.npmjs.org/opn
+282 verbose request uri https://registry.npmjs.org/immutable
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 14:30:13
+285 verbose etag W/"58702e52-1da7a"
+286 verbose lastModified Fri, 06 Jan 2017 23:54:58 GMT
+287 http request GET https://registry.npmjs.org/immutable
+288 verbose request uri https://registry.npmjs.org/portscanner
+289 verbose request no auth needed
+290 info attempt registry request try #1 at 14:30:13
+291 verbose etag W/"586f2285-51db"
+292 verbose lastModified Fri, 06 Jan 2017 04:52:21 GMT
+293 http request GET https://registry.npmjs.org/portscanner
+294 verbose request uri https://registry.npmjs.org/connect
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 14:30:13
+297 verbose etag W/"5864a303-524ee"
+298 verbose lastModified Thu, 29 Dec 2016 05:45:39 GMT
+299 http request GET https://registry.npmjs.org/connect
+300 verbose request uri https://registry.npmjs.org/qs
+301 verbose request no auth needed
+302 info attempt registry request try #1 at 14:30:13
+303 verbose etag W/"58769699-13512"
+304 verbose lastModified Wed, 11 Jan 2017 20:33:29 GMT
+305 http request GET https://registry.npmjs.org/qs
+306 verbose request uri https://registry.npmjs.org/resp-modifier
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 14:30:13
+309 verbose etag W/"5773fb68-97ed"
+310 verbose lastModified Wed, 29 Jun 2016 16:46:32 GMT
+311 http request GET https://registry.npmjs.org/resp-modifier
+312 verbose request uri https://registry.npmjs.org/server-destroy
+313 verbose request no auth needed
+314 info attempt registry request try #1 at 14:30:13
+315 verbose etag W/"555c34d9-b4c"
+316 verbose lastModified Wed, 20 May 2015 07:16:41 GMT
+317 http request GET https://registry.npmjs.org/server-destroy
+318 verbose request uri https://registry.npmjs.org/serve-static
+319 verbose request no auth needed
+320 info attempt registry request try #1 at 14:30:13
+321 verbose etag W/"584eb0c4-13384"
+322 verbose lastModified Mon, 12 Dec 2016 14:14:28 GMT
+323 http request GET https://registry.npmjs.org/serve-static
+324 verbose request uri https://registry.npmjs.org/rx
+325 verbose request no auth needed
+326 info attempt registry request try #1 at 14:30:13
+327 verbose etag W/"584955e4-2a5d4"
+328 verbose lastModified Thu, 08 Dec 2016 12:45:24 GMT
+329 http request GET https://registry.npmjs.org/rx
+330 verbose request uri https://registry.npmjs.org/serve-index
+331 verbose request no auth needed
+332 info attempt registry request try #1 at 14:30:13
+333 verbose etag W/"581ff4e7-d82f"
+334 verbose lastModified Mon, 07 Nov 2016 03:28:39 GMT
+335 http request GET https://registry.npmjs.org/serve-index
+336 verbose request uri https://registry.npmjs.org/ua-parser-js
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 14:30:13
+339 verbose etag W/"587481ff-12b18"
+340 verbose lastModified Tue, 10 Jan 2017 06:41:03 GMT
+341 http request GET https://registry.npmjs.org/ua-parser-js
+342 verbose request uri https://registry.npmjs.org/socket.io-client
+343 verbose request no auth needed
+344 info attempt registry request try #1 at 14:30:13
+345 verbose etag W/"586d7066-1f868"
+346 verbose lastModified Wed, 04 Jan 2017 22:00:06 GMT
+347 http request GET https://registry.npmjs.org/socket.io-client
+348 verbose request uri https://registry.npmjs.org/socket.io
+349 verbose request no auth needed
+350 info attempt registry request try #1 at 14:30:13
+351 verbose etag W/"5869a4bd-2427d"
+352 verbose lastModified Mon, 02 Jan 2017 00:54:21 GMT
+353 http request GET https://registry.npmjs.org/socket.io
+354 verbose request uri https://registry.npmjs.org/yargs
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 14:30:13
+357 verbose etag W/"58753129-47ca2"
+358 verbose lastModified Tue, 10 Jan 2017 19:08:25 GMT
+359 http request GET https://registry.npmjs.org/yargs
+360 http 304 https://registry.npmjs.org/browser-sync-client
+361 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+361 verbose headers   via: '1.1 varnish',
+361 verbose headers   'cache-control': 'max-age=300',
+361 verbose headers   etag: 'W/"584d4262-133f3"',
+361 verbose headers   age: '162',
+361 verbose headers   connection: 'keep-alive',
+361 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+361 verbose headers   'x-cache': 'HIT',
+361 verbose headers   'x-cache-hits': '1',
+361 verbose headers   'x-timer': 'S1484289008.428366,VS0,VE0',
+361 verbose headers   vary: 'Accept-Encoding' }
+362 silly get cb [ 304,
+362 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+362 silly get     via: '1.1 varnish',
+362 silly get     'cache-control': 'max-age=300',
+362 silly get     etag: 'W/"584d4262-133f3"',
+362 silly get     age: '162',
+362 silly get     connection: 'keep-alive',
+362 silly get     'x-served-by': 'cache-itm7427-ITM',
+362 silly get     'x-cache': 'HIT',
+362 silly get     'x-cache-hits': '1',
+362 silly get     'x-timer': 'S1484289008.428366,VS0,VE0',
+362 silly get     vary: 'Accept-Encoding' } ]
+363 verbose etag https://registry.npmjs.org/browser-sync-client from cache
+364 verbose get saving browser-sync-client to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\browser-sync-client\.cache.json
+365 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+366 silly resolveWithNewModule browser-sync-client@2.4.4 checking installable status
+367 silly cache add args [ 'browser-sync-client@2.4.4', null ]
+368 verbose cache add spec browser-sync-client@2.4.4
+369 silly cache add parsed spec Result {
+369 silly cache add   raw: 'browser-sync-client@2.4.4',
+369 silly cache add   scope: null,
+369 silly cache add   escapedName: 'browser-sync-client',
+369 silly cache add   name: 'browser-sync-client',
+369 silly cache add   rawSpec: '2.4.4',
+369 silly cache add   spec: '2.4.4',
+369 silly cache add   type: 'version' }
+370 silly addNamed browser-sync-client@2.4.4
+371 verbose addNamed "2.4.4" is a plain semver version for browser-sync-client
+372 silly mapToRegistry name browser-sync-client
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry data Result {
+375 silly mapToRegistry   raw: 'browser-sync-client',
+375 silly mapToRegistry   scope: null,
+375 silly mapToRegistry   escapedName: 'browser-sync-client',
+375 silly mapToRegistry   name: 'browser-sync-client',
+375 silly mapToRegistry   rawSpec: '',
+375 silly mapToRegistry   spec: 'latest',
+375 silly mapToRegistry   type: 'tag' }
+376 silly mapToRegistry uri https://registry.npmjs.org/browser-sync-client
+377 verbose addNameVersion registry:https://registry.npmjs.org/browser-sync-client not in flight; fetching
+378 verbose get https://registry.npmjs.org/browser-sync-client not expired, no request
+379 silly cache afterAdd browser-sync-client@2.4.4
+380 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\browser-sync-client\2.4.4\package\package.json not in flight; writing
+381 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+382 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\browser-sync-client\2.4.4\package\package.json written
+383 http 304 https://registry.npmjs.org/browser-sync-ui
+384 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+384 verbose headers   via: '1.1 varnish',
+384 verbose headers   'cache-control': 'max-age=300',
+384 verbose headers   etag: 'W/"584d2dd4-202d7"',
+384 verbose headers   age: '2',
+384 verbose headers   connection: 'keep-alive',
+384 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+384 verbose headers   'x-cache': 'HIT',
+384 verbose headers   'x-cache-hits': '1',
+384 verbose headers   'x-timer': 'S1484289008.775390,VS0,VE0',
+384 verbose headers   vary: 'Accept-Encoding' }
+385 silly get cb [ 304,
+385 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+385 silly get     via: '1.1 varnish',
+385 silly get     'cache-control': 'max-age=300',
+385 silly get     etag: 'W/"584d2dd4-202d7"',
+385 silly get     age: '2',
+385 silly get     connection: 'keep-alive',
+385 silly get     'x-served-by': 'cache-itm7427-ITM',
+385 silly get     'x-cache': 'HIT',
+385 silly get     'x-cache-hits': '1',
+385 silly get     'x-timer': 'S1484289008.775390,VS0,VE0',
+385 silly get     vary: 'Accept-Encoding' } ]
+386 verbose etag https://registry.npmjs.org/browser-sync-ui from cache
+387 verbose get saving browser-sync-ui to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\browser-sync-ui\.cache.json
+388 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+389 silly resolveWithNewModule browser-sync-ui@0.6.2 checking installable status
+390 silly cache add args [ 'browser-sync-ui@0.6.2', null ]
+391 verbose cache add spec browser-sync-ui@0.6.2
+392 silly cache add parsed spec Result {
+392 silly cache add   raw: 'browser-sync-ui@0.6.2',
+392 silly cache add   scope: null,
+392 silly cache add   escapedName: 'browser-sync-ui',
+392 silly cache add   name: 'browser-sync-ui',
+392 silly cache add   rawSpec: '0.6.2',
+392 silly cache add   spec: '0.6.2',
+392 silly cache add   type: 'version' }
+393 silly addNamed browser-sync-ui@0.6.2
+394 verbose addNamed "0.6.2" is a plain semver version for browser-sync-ui
+395 silly mapToRegistry name browser-sync-ui
+396 silly mapToRegistry using default registry
+397 silly mapToRegistry registry https://registry.npmjs.org/
+398 silly mapToRegistry data Result {
+398 silly mapToRegistry   raw: 'browser-sync-ui',
+398 silly mapToRegistry   scope: null,
+398 silly mapToRegistry   escapedName: 'browser-sync-ui',
+398 silly mapToRegistry   name: 'browser-sync-ui',
+398 silly mapToRegistry   rawSpec: '',
+398 silly mapToRegistry   spec: 'latest',
+398 silly mapToRegistry   type: 'tag' }
+399 silly mapToRegistry uri https://registry.npmjs.org/browser-sync-ui
+400 verbose addNameVersion registry:https://registry.npmjs.org/browser-sync-ui not in flight; fetching
+401 verbose get https://registry.npmjs.org/browser-sync-ui not expired, no request
+402 silly mapToRegistry name browser-sync-ui
+403 silly mapToRegistry using default registry
+404 silly mapToRegistry registry https://registry.npmjs.org/
+405 silly mapToRegistry data Result {
+405 silly mapToRegistry   raw: 'browser-sync-ui',
+405 silly mapToRegistry   scope: null,
+405 silly mapToRegistry   escapedName: 'browser-sync-ui',
+405 silly mapToRegistry   name: 'browser-sync-ui',
+405 silly mapToRegistry   rawSpec: '',
+405 silly mapToRegistry   spec: 'latest',
+405 silly mapToRegistry   type: 'tag' }
+406 silly mapToRegistry uri https://registry.npmjs.org/browser-sync-ui
+407 verbose addRemoteTarball https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-0.6.2.tgz not in flight; adding
+408 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-0.6.2.tgz',
+408 verbose addRemoteTarball   '9e7994004d463e55a024bdd149583b11ad8f87f3' ]
+409 info retry fetch attempt 1 at 14:30:14
+410 info attempt registry request try #1 at 14:30:14
+411 http fetch GET https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-0.6.2.tgz
+412 http 304 https://registry.npmjs.org/emitter-steward
+413 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+413 verbose headers   via: '1.1 varnish',
+413 verbose headers   'cache-control': 'max-age=300',
+413 verbose headers   etag: 'W/"55db6dea-b27"',
+413 verbose headers   age: '162',
+413 verbose headers   connection: 'keep-alive',
+413 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+413 verbose headers   'x-cache': 'HIT',
+413 verbose headers   'x-cache-hits': '1',
+413 verbose headers   'x-timer': 'S1484289008.842338,VS0,VE0',
+413 verbose headers   vary: 'Accept-Encoding' }
+414 silly get cb [ 304,
+414 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+414 silly get     via: '1.1 varnish',
+414 silly get     'cache-control': 'max-age=300',
+414 silly get     etag: 'W/"55db6dea-b27"',
+414 silly get     age: '162',
+414 silly get     connection: 'keep-alive',
+414 silly get     'x-served-by': 'cache-itm7423-ITM',
+414 silly get     'x-cache': 'HIT',
+414 silly get     'x-cache-hits': '1',
+414 silly get     'x-timer': 'S1484289008.842338,VS0,VE0',
+414 silly get     vary: 'Accept-Encoding' } ]
+415 verbose etag https://registry.npmjs.org/emitter-steward from cache
+416 verbose get saving emitter-steward to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\emitter-steward\.cache.json
+417 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+418 http 304 https://registry.npmjs.org/opn
+419 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+419 verbose headers   via: '1.1 varnish',
+419 verbose headers   'cache-control': 'max-age=300',
+419 verbose headers   etag: 'W/"586c8beb-5afc"',
+419 verbose headers   age: '9',
+419 verbose headers   connection: 'keep-alive',
+419 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+419 verbose headers   'x-cache': 'HIT',
+419 verbose headers   'x-cache-hits': '3',
+419 verbose headers   'x-timer': 'S1484289008.842898,VS0,VE0',
+419 verbose headers   vary: 'Accept-Encoding' }
+420 silly get cb [ 304,
+420 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+420 silly get     via: '1.1 varnish',
+420 silly get     'cache-control': 'max-age=300',
+420 silly get     etag: 'W/"586c8beb-5afc"',
+420 silly get     age: '9',
+420 silly get     connection: 'keep-alive',
+420 silly get     'x-served-by': 'cache-itm7421-ITM',
+420 silly get     'x-cache': 'HIT',
+420 silly get     'x-cache-hits': '3',
+420 silly get     'x-timer': 'S1484289008.842898,VS0,VE0',
+420 silly get     vary: 'Accept-Encoding' } ]
+421 verbose etag https://registry.npmjs.org/opn from cache
+422 verbose get saving opn to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\opn\.cache.json
+423 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+424 silly resolveWithNewModule emitter-steward@1.0.0 checking installable status
+425 silly cache add args [ 'emitter-steward@^1.0.0', null ]
+426 verbose cache add spec emitter-steward@^1.0.0
+427 silly cache add parsed spec Result {
+427 silly cache add   raw: 'emitter-steward@^1.0.0',
+427 silly cache add   scope: null,
+427 silly cache add   escapedName: 'emitter-steward',
+427 silly cache add   name: 'emitter-steward',
+427 silly cache add   rawSpec: '^1.0.0',
+427 silly cache add   spec: '>=1.0.0 <2.0.0',
+427 silly cache add   type: 'range' }
+428 silly addNamed emitter-steward@>=1.0.0 <2.0.0
+429 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for emitter-steward
+430 silly addNameRange { name: 'emitter-steward',
+430 silly addNameRange   range: '>=1.0.0 <2.0.0',
+430 silly addNameRange   hasData: false }
+431 silly mapToRegistry name emitter-steward
+432 silly mapToRegistry using default registry
+433 silly mapToRegistry registry https://registry.npmjs.org/
+434 silly mapToRegistry data Result {
+434 silly mapToRegistry   raw: 'emitter-steward',
+434 silly mapToRegistry   scope: null,
+434 silly mapToRegistry   escapedName: 'emitter-steward',
+434 silly mapToRegistry   name: 'emitter-steward',
+434 silly mapToRegistry   rawSpec: '',
+434 silly mapToRegistry   spec: 'latest',
+434 silly mapToRegistry   type: 'tag' }
+435 silly mapToRegistry uri https://registry.npmjs.org/emitter-steward
+436 verbose addNameRange registry:https://registry.npmjs.org/emitter-steward not in flight; fetching
+437 verbose get https://registry.npmjs.org/emitter-steward not expired, no request
+438 silly addNameRange number 2 { name: 'emitter-steward',
+438 silly addNameRange   range: '>=1.0.0 <2.0.0',
+438 silly addNameRange   hasData: true }
+439 silly addNameRange versions [ 'emitter-steward', [ '0.0.1', '1.0.0' ] ]
+440 silly addNamed emitter-steward@1.0.0
+441 verbose addNamed "1.0.0" is a plain semver version for emitter-steward
+442 silly resolveWithNewModule opn@4.0.2 checking installable status
+443 silly cache add args [ 'opn@4.0.2', null ]
+444 verbose cache add spec opn@4.0.2
+445 silly cache add parsed spec Result {
+445 silly cache add   raw: 'opn@4.0.2',
+445 silly cache add   scope: null,
+445 silly cache add   escapedName: 'opn',
+445 silly cache add   name: 'opn',
+445 silly cache add   rawSpec: '4.0.2',
+445 silly cache add   spec: '4.0.2',
+445 silly cache add   type: 'version' }
+446 silly addNamed opn@4.0.2
+447 verbose addNamed "4.0.2" is a plain semver version for opn
+448 silly mapToRegistry name opn
+449 silly mapToRegistry using default registry
+450 silly mapToRegistry registry https://registry.npmjs.org/
+451 silly mapToRegistry data Result {
+451 silly mapToRegistry   raw: 'opn',
+451 silly mapToRegistry   scope: null,
+451 silly mapToRegistry   escapedName: 'opn',
+451 silly mapToRegistry   name: 'opn',
+451 silly mapToRegistry   rawSpec: '',
+451 silly mapToRegistry   spec: 'latest',
+451 silly mapToRegistry   type: 'tag' }
+452 silly mapToRegistry uri https://registry.npmjs.org/opn
+453 verbose addNameVersion registry:https://registry.npmjs.org/opn not in flight; fetching
+454 silly cache afterAdd emitter-steward@1.0.0
+455 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\emitter-steward\1.0.0\package\package.json not in flight; writing
+456 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+457 verbose get https://registry.npmjs.org/opn not expired, no request
+458 silly cache afterAdd opn@4.0.2
+459 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\opn\4.0.2\package\package.json not in flight; writing
+460 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+461 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\emitter-steward\1.0.0\package\package.json written
+462 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\opn\4.0.2\package\package.json written
+463 http fetch 200 https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-0.6.2.tgz
+464 http 304 https://registry.npmjs.org/bs-recipes
+465 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+465 verbose headers   via: '1.1 varnish',
+465 verbose headers   'cache-control': 'max-age=300',
+465 verbose headers   etag: 'W/"586f57d6-69a7"',
+465 verbose headers   age: '163',
+465 verbose headers   connection: 'keep-alive',
+465 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+465 verbose headers   'x-cache': 'HIT',
+465 verbose headers   'x-cache-hits': '2',
+465 verbose headers   'x-timer': 'S1484289008.744177,VS0,VE0',
+465 verbose headers   vary: 'Accept-Encoding' }
+466 silly get cb [ 304,
+466 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+466 silly get     via: '1.1 varnish',
+466 silly get     'cache-control': 'max-age=300',
+466 silly get     etag: 'W/"586f57d6-69a7"',
+466 silly get     age: '163',
+466 silly get     connection: 'keep-alive',
+466 silly get     'x-served-by': 'cache-itm7423-ITM',
+466 silly get     'x-cache': 'HIT',
+466 silly get     'x-cache-hits': '2',
+466 silly get     'x-timer': 'S1484289008.744177,VS0,VE0',
+466 silly get     vary: 'Accept-Encoding' } ]
+467 verbose etag https://registry.npmjs.org/bs-recipes from cache
+468 verbose get saving bs-recipes to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\bs-recipes\.cache.json
+469 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+470 silly resolveWithNewModule bs-recipes@1.3.4 checking installable status
+471 silly cache add args [ 'bs-recipes@1.3.4', null ]
+472 verbose cache add spec bs-recipes@1.3.4
+473 silly cache add parsed spec Result {
+473 silly cache add   raw: 'bs-recipes@1.3.4',
+473 silly cache add   scope: null,
+473 silly cache add   escapedName: 'bs-recipes',
+473 silly cache add   name: 'bs-recipes',
+473 silly cache add   rawSpec: '1.3.4',
+473 silly cache add   spec: '1.3.4',
+473 silly cache add   type: 'version' }
+474 silly addNamed bs-recipes@1.3.4
+475 verbose addNamed "1.3.4" is a plain semver version for bs-recipes
+476 silly mapToRegistry name bs-recipes
+477 silly mapToRegistry using default registry
+478 silly mapToRegistry registry https://registry.npmjs.org/
+479 silly mapToRegistry data Result {
+479 silly mapToRegistry   raw: 'bs-recipes',
+479 silly mapToRegistry   scope: null,
+479 silly mapToRegistry   escapedName: 'bs-recipes',
+479 silly mapToRegistry   name: 'bs-recipes',
+479 silly mapToRegistry   rawSpec: '',
+479 silly mapToRegistry   spec: 'latest',
+479 silly mapToRegistry   type: 'tag' }
+480 silly mapToRegistry uri https://registry.npmjs.org/bs-recipes
+481 verbose addNameVersion registry:https://registry.npmjs.org/bs-recipes not in flight; fetching
+482 verbose get https://registry.npmjs.org/bs-recipes not expired, no request
+483 silly cache afterAdd bs-recipes@1.3.4
+484 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\bs-recipes\1.3.4\package\package.json not in flight; writing
+485 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+486 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\bs-recipes\1.3.4\package\package.json written
+487 http 304 https://registry.npmjs.org/chokidar
+488 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+488 verbose headers   via: '1.1 varnish',
+488 verbose headers   'cache-control': 'max-age=300',
+488 verbose headers   etag: 'W/"5865d62f-1bb1b"',
+488 verbose headers   age: '218',
+488 verbose headers   connection: 'keep-alive',
+488 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+488 verbose headers   'x-cache': 'HIT',
+488 verbose headers   'x-cache-hits': '5',
+488 verbose headers   'x-timer': 'S1484289008.801801,VS0,VE0',
+488 verbose headers   vary: 'Accept-Encoding' }
+489 silly get cb [ 304,
+489 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+489 silly get     via: '1.1 varnish',
+489 silly get     'cache-control': 'max-age=300',
+489 silly get     etag: 'W/"5865d62f-1bb1b"',
+489 silly get     age: '218',
+489 silly get     connection: 'keep-alive',
+489 silly get     'x-served-by': 'cache-itm7426-ITM',
+489 silly get     'x-cache': 'HIT',
+489 silly get     'x-cache-hits': '5',
+489 silly get     'x-timer': 'S1484289008.801801,VS0,VE0',
+489 silly get     vary: 'Accept-Encoding' } ]
+490 verbose etag https://registry.npmjs.org/chokidar from cache
+491 verbose get saving chokidar to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\chokidar\.cache.json
+492 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+493 silly resolveWithNewModule chokidar@1.6.1 checking installable status
+494 silly cache add args [ 'chokidar@1.6.1', null ]
+495 verbose cache add spec chokidar@1.6.1
+496 silly cache add parsed spec Result {
+496 silly cache add   raw: 'chokidar@1.6.1',
+496 silly cache add   scope: null,
+496 silly cache add   escapedName: 'chokidar',
+496 silly cache add   name: 'chokidar',
+496 silly cache add   rawSpec: '1.6.1',
+496 silly cache add   spec: '1.6.1',
+496 silly cache add   type: 'version' }
+497 silly addNamed chokidar@1.6.1
+498 verbose addNamed "1.6.1" is a plain semver version for chokidar
+499 silly mapToRegistry name chokidar
+500 silly mapToRegistry using default registry
+501 silly mapToRegistry registry https://registry.npmjs.org/
+502 silly mapToRegistry data Result {
+502 silly mapToRegistry   raw: 'chokidar',
+502 silly mapToRegistry   scope: null,
+502 silly mapToRegistry   escapedName: 'chokidar',
+502 silly mapToRegistry   name: 'chokidar',
+502 silly mapToRegistry   rawSpec: '',
+502 silly mapToRegistry   spec: 'latest',
+502 silly mapToRegistry   type: 'tag' }
+503 silly mapToRegistry uri https://registry.npmjs.org/chokidar
+504 verbose addNameVersion registry:https://registry.npmjs.org/chokidar not in flight; fetching
+505 verbose get https://registry.npmjs.org/chokidar not expired, no request
+506 silly cache afterAdd chokidar@1.6.1
+507 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\chokidar\1.6.1\package\package.json not in flight; writing
+508 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+509 http 304 https://registry.npmjs.org/fs-extra
+510 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+510 verbose headers   via: '1.1 varnish',
+510 verbose headers   'cache-control': 'max-age=300',
+510 verbose headers   etag: 'W/"5874f2d5-1e9cb"',
+510 verbose headers   age: '232',
+510 verbose headers   connection: 'keep-alive',
+510 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+510 verbose headers   'x-cache': 'HIT',
+510 verbose headers   'x-cache-hits': '3',
+510 verbose headers   'x-timer': 'S1484289008.827529,VS0,VE0',
+510 verbose headers   vary: 'Accept-Encoding' }
+511 silly get cb [ 304,
+511 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+511 silly get     via: '1.1 varnish',
+511 silly get     'cache-control': 'max-age=300',
+511 silly get     etag: 'W/"5874f2d5-1e9cb"',
+511 silly get     age: '232',
+511 silly get     connection: 'keep-alive',
+511 silly get     'x-served-by': 'cache-itm7424-ITM',
+511 silly get     'x-cache': 'HIT',
+511 silly get     'x-cache-hits': '3',
+511 silly get     'x-timer': 'S1484289008.827529,VS0,VE0',
+511 silly get     vary: 'Accept-Encoding' } ]
+512 verbose etag https://registry.npmjs.org/fs-extra from cache
+513 verbose get saving fs-extra to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\fs-extra\.cache.json
+514 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+515 silly resolveWithNewModule fs-extra@1.0.0 checking installable status
+516 silly cache add args [ 'fs-extra@1.0.0', null ]
+517 verbose cache add spec fs-extra@1.0.0
+518 silly cache add parsed spec Result {
+518 silly cache add   raw: 'fs-extra@1.0.0',
+518 silly cache add   scope: null,
+518 silly cache add   escapedName: 'fs-extra',
+518 silly cache add   name: 'fs-extra',
+518 silly cache add   rawSpec: '1.0.0',
+518 silly cache add   spec: '1.0.0',
+518 silly cache add   type: 'version' }
+519 silly addNamed fs-extra@1.0.0
+520 verbose addNamed "1.0.0" is a plain semver version for fs-extra
+521 silly mapToRegistry name fs-extra
+522 silly mapToRegistry using default registry
+523 silly mapToRegistry registry https://registry.npmjs.org/
+524 silly mapToRegistry data Result {
+524 silly mapToRegistry   raw: 'fs-extra',
+524 silly mapToRegistry   scope: null,
+524 silly mapToRegistry   escapedName: 'fs-extra',
+524 silly mapToRegistry   name: 'fs-extra',
+524 silly mapToRegistry   rawSpec: '',
+524 silly mapToRegistry   spec: 'latest',
+524 silly mapToRegistry   type: 'tag' }
+525 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+526 verbose addNameVersion registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+527 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\chokidar\1.6.1\package\package.json written
+528 verbose get https://registry.npmjs.org/fs-extra not expired, no request
+529 silly cache afterAdd fs-extra@1.0.0
+530 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\fs-extra\1.0.0\package\package.json not in flight; writing
+531 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+532 http 304 https://registry.npmjs.org/eazy-logger
+533 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+533 verbose headers   via: '1.1 varnish',
+533 verbose headers   'cache-control': 'max-age=300',
+533 verbose headers   etag: 'W/"582412b8-6a98"',
+533 verbose headers   age: '3',
+533 verbose headers   connection: 'keep-alive',
+533 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+533 verbose headers   'x-cache': 'HIT',
+533 verbose headers   'x-cache-hits': '1',
+533 verbose headers   'x-timer': 'S1484289009.302782,VS0,VE0',
+533 verbose headers   vary: 'Accept-Encoding' }
+534 silly get cb [ 304,
+534 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+534 silly get     via: '1.1 varnish',
+534 silly get     'cache-control': 'max-age=300',
+534 silly get     etag: 'W/"582412b8-6a98"',
+534 silly get     age: '3',
+534 silly get     connection: 'keep-alive',
+534 silly get     'x-served-by': 'cache-itm7421-ITM',
+534 silly get     'x-cache': 'HIT',
+534 silly get     'x-cache-hits': '1',
+534 silly get     'x-timer': 'S1484289009.302782,VS0,VE0',
+534 silly get     vary: 'Accept-Encoding' } ]
+535 verbose etag https://registry.npmjs.org/eazy-logger from cache
+536 verbose get saving eazy-logger to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\eazy-logger\.cache.json
+537 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+538 http 304 https://registry.npmjs.org/portscanner
+539 verbose headers { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+539 verbose headers   via: '1.1 varnish',
+539 verbose headers   'cache-control': 'max-age=300',
+539 verbose headers   etag: 'W/"586f2285-51db"',
+539 verbose headers   age: '162',
+539 verbose headers   connection: 'keep-alive',
+539 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+539 verbose headers   'x-cache': 'HIT',
+539 verbose headers   'x-cache-hits': '2',
+539 verbose headers   'x-timer': 'S1484289008.842685,VS0,VE0',
+539 verbose headers   vary: 'Accept-Encoding' }
+540 silly get cb [ 304,
+540 silly get   { date: 'Fri, 13 Jan 2017 06:30:08 GMT',
+540 silly get     via: '1.1 varnish',
+540 silly get     'cache-control': 'max-age=300',
+540 silly get     etag: 'W/"586f2285-51db"',
+540 silly get     age: '162',
+540 silly get     connection: 'keep-alive',
+540 silly get     'x-served-by': 'cache-itm7426-ITM',
+540 silly get     'x-cache': 'HIT',
+540 silly get     'x-cache-hits': '2',
+540 silly get     'x-timer': 'S1484289008.842685,VS0,VE0',
+540 silly get     vary: 'Accept-Encoding' } ]
+541 verbose etag https://registry.npmjs.org/portscanner from cache
+542 verbose get saving portscanner to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\portscanner\.cache.json
+543 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+544 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\fs-extra\1.0.0\package\package.json written
+545 silly resolveWithNewModule eazy-logger@3.0.2 checking installable status
+546 silly cache add args [ 'eazy-logger@3.0.2', null ]
+547 verbose cache add spec eazy-logger@3.0.2
+548 silly cache add parsed spec Result {
+548 silly cache add   raw: 'eazy-logger@3.0.2',
+548 silly cache add   scope: null,
+548 silly cache add   escapedName: 'eazy-logger',
+548 silly cache add   name: 'eazy-logger',
+548 silly cache add   rawSpec: '3.0.2',
+548 silly cache add   spec: '3.0.2',
+548 silly cache add   type: 'version' }
+549 silly addNamed eazy-logger@3.0.2
+550 verbose addNamed "3.0.2" is a plain semver version for eazy-logger
+551 silly mapToRegistry name eazy-logger
+552 silly mapToRegistry using default registry
+553 silly mapToRegistry registry https://registry.npmjs.org/
+554 silly mapToRegistry data Result {
+554 silly mapToRegistry   raw: 'eazy-logger',
+554 silly mapToRegistry   scope: null,
+554 silly mapToRegistry   escapedName: 'eazy-logger',
+554 silly mapToRegistry   name: 'eazy-logger',
+554 silly mapToRegistry   rawSpec: '',
+554 silly mapToRegistry   spec: 'latest',
+554 silly mapToRegistry   type: 'tag' }
+555 silly mapToRegistry uri https://registry.npmjs.org/eazy-logger
+556 verbose addNameVersion registry:https://registry.npmjs.org/eazy-logger not in flight; fetching
+557 silly resolveWithNewModule portscanner@2.1.1 checking installable status
+558 silly cache add args [ 'portscanner@2.1.1', null ]
+559 verbose cache add spec portscanner@2.1.1
+560 silly cache add parsed spec Result {
+560 silly cache add   raw: 'portscanner@2.1.1',
+560 silly cache add   scope: null,
+560 silly cache add   escapedName: 'portscanner',
+560 silly cache add   name: 'portscanner',
+560 silly cache add   rawSpec: '2.1.1',
+560 silly cache add   spec: '2.1.1',
+560 silly cache add   type: 'version' }
+561 silly addNamed portscanner@2.1.1
+562 verbose addNamed "2.1.1" is a plain semver version for portscanner
+563 silly mapToRegistry name portscanner
+564 silly mapToRegistry using default registry
+565 silly mapToRegistry registry https://registry.npmjs.org/
+566 silly mapToRegistry data Result {
+566 silly mapToRegistry   raw: 'portscanner',
+566 silly mapToRegistry   scope: null,
+566 silly mapToRegistry   escapedName: 'portscanner',
+566 silly mapToRegistry   name: 'portscanner',
+566 silly mapToRegistry   rawSpec: '',
+566 silly mapToRegistry   spec: 'latest',
+566 silly mapToRegistry   type: 'tag' }
+567 silly mapToRegistry uri https://registry.npmjs.org/portscanner
+568 verbose addNameVersion registry:https://registry.npmjs.org/portscanner not in flight; fetching
+569 verbose get https://registry.npmjs.org/eazy-logger not expired, no request
+570 verbose get https://registry.npmjs.org/portscanner not expired, no request
+571 silly cache afterAdd eazy-logger@3.0.2
+572 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\eazy-logger\3.0.2\package\package.json not in flight; writing
+573 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+574 silly cache afterAdd portscanner@2.1.1
+575 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\portscanner\2.1.1\package\package.json not in flight; writing
+576 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+577 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\portscanner\2.1.1\package\package.json written
+578 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\eazy-logger\3.0.2\package\package.json written
+579 http 304 https://registry.npmjs.org/rx
+580 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+580 verbose headers   via: '1.1 varnish',
+580 verbose headers   'cache-control': 'max-age=300',
+580 verbose headers   etag: 'W/"584955e4-2a5d4"',
+580 verbose headers   age: '227',
+580 verbose headers   connection: 'keep-alive',
+580 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+580 verbose headers   'x-cache': 'HIT',
+580 verbose headers   'x-cache-hits': '2',
+580 verbose headers   'x-timer': 'S1484289009.793192,VS0,VE0',
+580 verbose headers   vary: 'Accept-Encoding' }
+581 silly get cb [ 304,
+581 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+581 silly get     via: '1.1 varnish',
+581 silly get     'cache-control': 'max-age=300',
+581 silly get     etag: 'W/"584955e4-2a5d4"',
+581 silly get     age: '227',
+581 silly get     connection: 'keep-alive',
+581 silly get     'x-served-by': 'cache-itm7423-ITM',
+581 silly get     'x-cache': 'HIT',
+581 silly get     'x-cache-hits': '2',
+581 silly get     'x-timer': 'S1484289009.793192,VS0,VE0',
+581 silly get     vary: 'Accept-Encoding' } ]
+582 verbose etag https://registry.npmjs.org/rx from cache
+583 verbose get saving rx to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\rx\.cache.json
+584 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+585 http 304 https://registry.npmjs.org/yargs
+586 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+586 verbose headers   via: '1.1 varnish',
+586 verbose headers   'cache-control': 'max-age=300',
+586 verbose headers   etag: 'W/"58753129-47ca2"',
+586 verbose headers   age: '285',
+586 verbose headers   connection: 'keep-alive',
+586 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+586 verbose headers   'x-cache': 'HIT',
+586 verbose headers   'x-cache-hits': '7',
+586 verbose headers   'x-timer': 'S1484289009.794088,VS0,VE0',
+586 verbose headers   vary: 'Accept-Encoding' }
+587 silly get cb [ 304,
+587 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+587 silly get     via: '1.1 varnish',
+587 silly get     'cache-control': 'max-age=300',
+587 silly get     etag: 'W/"58753129-47ca2"',
+587 silly get     age: '285',
+587 silly get     connection: 'keep-alive',
+587 silly get     'x-served-by': 'cache-itm7427-ITM',
+587 silly get     'x-cache': 'HIT',
+587 silly get     'x-cache-hits': '7',
+587 silly get     'x-timer': 'S1484289009.794088,VS0,VE0',
+587 silly get     vary: 'Accept-Encoding' } ]
+588 verbose etag https://registry.npmjs.org/yargs from cache
+589 verbose get saving yargs to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\yargs\.cache.json
+590 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+591 http 304 https://registry.npmjs.org/http-proxy
+592 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+592 verbose headers   via: '1.1 varnish',
+592 verbose headers   'cache-control': 'max-age=300',
+592 verbose headers   etag: 'W/"58770170-23cf0"',
+592 verbose headers   age: '190',
+592 verbose headers   connection: 'keep-alive',
+592 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+592 verbose headers   'x-cache': 'HIT',
+592 verbose headers   'x-cache-hits': '66',
+592 verbose headers   'x-timer': 'S1484289009.793548,VS0,VE0',
+592 verbose headers   vary: 'Accept-Encoding' }
+593 silly get cb [ 304,
+593 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+593 silly get     via: '1.1 varnish',
+593 silly get     'cache-control': 'max-age=300',
+593 silly get     etag: 'W/"58770170-23cf0"',
+593 silly get     age: '190',
+593 silly get     connection: 'keep-alive',
+593 silly get     'x-served-by': 'cache-itm7426-ITM',
+593 silly get     'x-cache': 'HIT',
+593 silly get     'x-cache-hits': '66',
+593 silly get     'x-timer': 'S1484289009.793548,VS0,VE0',
+593 silly get     vary: 'Accept-Encoding' } ]
+594 verbose etag https://registry.npmjs.org/http-proxy from cache
+595 verbose get saving http-proxy to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\http-proxy\.cache.json
+596 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+597 http 304 https://registry.npmjs.org/serve-index
+598 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+598 verbose headers   via: '1.1 varnish',
+598 verbose headers   'cache-control': 'max-age=300',
+598 verbose headers   etag: 'W/"581ff4e7-d82f"',
+598 verbose headers   age: '11',
+598 verbose headers   connection: 'keep-alive',
+598 verbose headers   'x-served-by': 'cache-itm7423-ITM',
+598 verbose headers   'x-cache': 'HIT',
+598 verbose headers   'x-cache-hits': '1',
+598 verbose headers   'x-timer': 'S1484289009.794673,VS0,VE0',
+598 verbose headers   vary: 'Accept-Encoding' }
+599 silly get cb [ 304,
+599 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+599 silly get     via: '1.1 varnish',
+599 silly get     'cache-control': 'max-age=300',
+599 silly get     etag: 'W/"581ff4e7-d82f"',
+599 silly get     age: '11',
+599 silly get     connection: 'keep-alive',
+599 silly get     'x-served-by': 'cache-itm7423-ITM',
+599 silly get     'x-cache': 'HIT',
+599 silly get     'x-cache-hits': '1',
+599 silly get     'x-timer': 'S1484289009.794673,VS0,VE0',
+599 silly get     vary: 'Accept-Encoding' } ]
+600 verbose etag https://registry.npmjs.org/serve-index from cache
+601 verbose get saving serve-index to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\serve-index\.cache.json
+602 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+603 http 304 https://registry.npmjs.org/socket.io-client
+604 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+604 verbose headers   via: '1.1 varnish',
+604 verbose headers   'cache-control': 'max-age=300',
+604 verbose headers   etag: 'W/"586d7066-1f868"',
+604 verbose headers   age: '3',
+604 verbose headers   connection: 'keep-alive',
+604 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+604 verbose headers   'x-cache': 'HIT',
+604 verbose headers   'x-cache-hits': '1',
+604 verbose headers   'x-timer': 'S1484289009.794242,VS0,VE0',
+604 verbose headers   vary: 'Accept-Encoding' }
+605 silly get cb [ 304,
+605 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+605 silly get     via: '1.1 varnish',
+605 silly get     'cache-control': 'max-age=300',
+605 silly get     etag: 'W/"586d7066-1f868"',
+605 silly get     age: '3',
+605 silly get     connection: 'keep-alive',
+605 silly get     'x-served-by': 'cache-itm7424-ITM',
+605 silly get     'x-cache': 'HIT',
+605 silly get     'x-cache-hits': '1',
+605 silly get     'x-timer': 'S1484289009.794242,VS0,VE0',
+605 silly get     vary: 'Accept-Encoding' } ]
+606 verbose etag https://registry.npmjs.org/socket.io-client from cache
+607 verbose get saving socket.io-client to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\socket.io-client\.cache.json
+608 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+609 http 304 https://registry.npmjs.org/qs
+610 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+610 verbose headers   via: '1.1 varnish',
+610 verbose headers   'cache-control': 'max-age=300',
+610 verbose headers   etag: 'W/"58769699-13512"',
+610 verbose headers   age: '175',
+610 verbose headers   connection: 'keep-alive',
+610 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+610 verbose headers   'x-cache': 'HIT',
+610 verbose headers   'x-cache-hits': '10',
+610 verbose headers   'x-timer': 'S1484289009.795124,VS0,VE0',
+610 verbose headers   vary: 'Accept-Encoding' }
+611 silly get cb [ 304,
+611 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+611 silly get     via: '1.1 varnish',
+611 silly get     'cache-control': 'max-age=300',
+611 silly get     etag: 'W/"58769699-13512"',
+611 silly get     age: '175',
+611 silly get     connection: 'keep-alive',
+611 silly get     'x-served-by': 'cache-itm7427-ITM',
+611 silly get     'x-cache': 'HIT',
+611 silly get     'x-cache-hits': '10',
+611 silly get     'x-timer': 'S1484289009.795124,VS0,VE0',
+611 silly get     vary: 'Accept-Encoding' } ]
+612 verbose etag https://registry.npmjs.org/qs from cache
+613 verbose get saving qs to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\qs\.cache.json
+614 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+615 http 304 https://registry.npmjs.org/localtunnel
+616 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+616 verbose headers   via: '1.1 varnish',
+616 verbose headers   'cache-control': 'max-age=300',
+616 verbose headers   etag: 'W/"5874b3d0-7363"',
+616 verbose headers   age: '16',
+616 verbose headers   connection: 'keep-alive',
+616 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+616 verbose headers   'x-cache': 'HIT',
+616 verbose headers   'x-cache-hits': '2',
+616 verbose headers   'x-timer': 'S1484289009.794803,VS0,VE0',
+616 verbose headers   vary: 'Accept-Encoding' }
+617 silly get cb [ 304,
+617 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+617 silly get     via: '1.1 varnish',
+617 silly get     'cache-control': 'max-age=300',
+617 silly get     etag: 'W/"5874b3d0-7363"',
+617 silly get     age: '16',
+617 silly get     connection: 'keep-alive',
+617 silly get     'x-served-by': 'cache-itm7424-ITM',
+617 silly get     'x-cache': 'HIT',
+617 silly get     'x-cache-hits': '2',
+617 silly get     'x-timer': 'S1484289009.794803,VS0,VE0',
+617 silly get     vary: 'Accept-Encoding' } ]
+618 verbose etag https://registry.npmjs.org/localtunnel from cache
+619 verbose get saving localtunnel to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\localtunnel\.cache.json
+620 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+621 http 304 https://registry.npmjs.org/immutable
+622 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+622 verbose headers   via: '1.1 varnish',
+622 verbose headers   'cache-control': 'max-age=300',
+622 verbose headers   etag: 'W/"58702e52-1da7a"',
+622 verbose headers   age: '249',
+622 verbose headers   connection: 'keep-alive',
+622 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+622 verbose headers   'x-cache': 'HIT',
+622 verbose headers   'x-cache-hits': '1',
+622 verbose headers   'x-timer': 'S1484289009.794922,VS0,VE0',
+622 verbose headers   vary: 'Accept-Encoding' }
+623 silly get cb [ 304,
+623 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+623 silly get     via: '1.1 varnish',
+623 silly get     'cache-control': 'max-age=300',
+623 silly get     etag: 'W/"58702e52-1da7a"',
+623 silly get     age: '249',
+623 silly get     connection: 'keep-alive',
+623 silly get     'x-served-by': 'cache-itm7427-ITM',
+623 silly get     'x-cache': 'HIT',
+623 silly get     'x-cache-hits': '1',
+623 silly get     'x-timer': 'S1484289009.794922,VS0,VE0',
+623 silly get     vary: 'Accept-Encoding' } ]
+624 verbose etag https://registry.npmjs.org/immutable from cache
+625 verbose get saving immutable to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\immutable\.cache.json
+626 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+627 http 304 https://registry.npmjs.org/ua-parser-js
+628 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+628 verbose headers   via: '1.1 varnish',
+628 verbose headers   'cache-control': 'max-age=300',
+628 verbose headers   etag: 'W/"587481ff-12b18"',
+628 verbose headers   age: '28',
+628 verbose headers   connection: 'keep-alive',
+628 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+628 verbose headers   'x-cache': 'HIT',
+628 verbose headers   'x-cache-hits': '1',
+628 verbose headers   'x-timer': 'S1484289009.802868,VS0,VE0',
+628 verbose headers   vary: 'Accept-Encoding' }
+629 silly get cb [ 304,
+629 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+629 silly get     via: '1.1 varnish',
+629 silly get     'cache-control': 'max-age=300',
+629 silly get     etag: 'W/"587481ff-12b18"',
+629 silly get     age: '28',
+629 silly get     connection: 'keep-alive',
+629 silly get     'x-served-by': 'cache-itm7420-ITM',
+629 silly get     'x-cache': 'HIT',
+629 silly get     'x-cache-hits': '1',
+629 silly get     'x-timer': 'S1484289009.802868,VS0,VE0',
+629 silly get     vary: 'Accept-Encoding' } ]
+630 verbose etag https://registry.npmjs.org/ua-parser-js from cache
+631 verbose get saving ua-parser-js to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\ua-parser-js\.cache.json
+632 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+633 silly resolveWithNewModule yargs@6.4.0 checking installable status
+634 silly cache add args [ 'yargs@6.4.0', null ]
+635 verbose cache add spec yargs@6.4.0
+636 silly cache add parsed spec Result {
+636 silly cache add   raw: 'yargs@6.4.0',
+636 silly cache add   scope: null,
+636 silly cache add   escapedName: 'yargs',
+636 silly cache add   name: 'yargs',
+636 silly cache add   rawSpec: '6.4.0',
+636 silly cache add   spec: '6.4.0',
+636 silly cache add   type: 'version' }
+637 silly addNamed yargs@6.4.0
+638 verbose addNamed "6.4.0" is a plain semver version for yargs
+639 silly mapToRegistry name yargs
+640 silly mapToRegistry using default registry
+641 silly mapToRegistry registry https://registry.npmjs.org/
+642 silly mapToRegistry data Result {
+642 silly mapToRegistry   raw: 'yargs',
+642 silly mapToRegistry   scope: null,
+642 silly mapToRegistry   escapedName: 'yargs',
+642 silly mapToRegistry   name: 'yargs',
+642 silly mapToRegistry   rawSpec: '',
+642 silly mapToRegistry   spec: 'latest',
+642 silly mapToRegistry   type: 'tag' }
+643 silly mapToRegistry uri https://registry.npmjs.org/yargs
+644 verbose addNameVersion registry:https://registry.npmjs.org/yargs not in flight; fetching
+645 silly resolveWithNewModule serve-index@1.8.0 checking installable status
+646 silly cache add args [ 'serve-index@1.8.0', null ]
+647 verbose cache add spec serve-index@1.8.0
+648 silly cache add parsed spec Result {
+648 silly cache add   raw: 'serve-index@1.8.0',
+648 silly cache add   scope: null,
+648 silly cache add   escapedName: 'serve-index',
+648 silly cache add   name: 'serve-index',
+648 silly cache add   rawSpec: '1.8.0',
+648 silly cache add   spec: '1.8.0',
+648 silly cache add   type: 'version' }
+649 silly addNamed serve-index@1.8.0
+650 verbose addNamed "1.8.0" is a plain semver version for serve-index
+651 silly mapToRegistry name serve-index
+652 silly mapToRegistry using default registry
+653 silly mapToRegistry registry https://registry.npmjs.org/
+654 silly mapToRegistry data Result {
+654 silly mapToRegistry   raw: 'serve-index',
+654 silly mapToRegistry   scope: null,
+654 silly mapToRegistry   escapedName: 'serve-index',
+654 silly mapToRegistry   name: 'serve-index',
+654 silly mapToRegistry   rawSpec: '',
+654 silly mapToRegistry   spec: 'latest',
+654 silly mapToRegistry   type: 'tag' }
+655 silly mapToRegistry uri https://registry.npmjs.org/serve-index
+656 verbose addNameVersion registry:https://registry.npmjs.org/serve-index not in flight; fetching
+657 silly resolveWithNewModule rx@4.1.0 checking installable status
+658 silly cache add args [ 'rx@4.1.0', null ]
+659 verbose cache add spec rx@4.1.0
+660 silly cache add parsed spec Result {
+660 silly cache add   raw: 'rx@4.1.0',
+660 silly cache add   scope: null,
+660 silly cache add   escapedName: 'rx',
+660 silly cache add   name: 'rx',
+660 silly cache add   rawSpec: '4.1.0',
+660 silly cache add   spec: '4.1.0',
+660 silly cache add   type: 'version' }
+661 silly addNamed rx@4.1.0
+662 verbose addNamed "4.1.0" is a plain semver version for rx
+663 silly mapToRegistry name rx
+664 silly mapToRegistry using default registry
+665 silly mapToRegistry registry https://registry.npmjs.org/
+666 silly mapToRegistry data Result {
+666 silly mapToRegistry   raw: 'rx',
+666 silly mapToRegistry   scope: null,
+666 silly mapToRegistry   escapedName: 'rx',
+666 silly mapToRegistry   name: 'rx',
+666 silly mapToRegistry   rawSpec: '',
+666 silly mapToRegistry   spec: 'latest',
+666 silly mapToRegistry   type: 'tag' }
+667 silly mapToRegistry uri https://registry.npmjs.org/rx
+668 verbose addNameVersion registry:https://registry.npmjs.org/rx not in flight; fetching
+669 silly resolveWithNewModule http-proxy@1.15.2 checking installable status
+670 silly cache add args [ 'http-proxy@1.15.2', null ]
+671 verbose cache add spec http-proxy@1.15.2
+672 silly cache add parsed spec Result {
+672 silly cache add   raw: 'http-proxy@1.15.2',
+672 silly cache add   scope: null,
+672 silly cache add   escapedName: 'http-proxy',
+672 silly cache add   name: 'http-proxy',
+672 silly cache add   rawSpec: '1.15.2',
+672 silly cache add   spec: '1.15.2',
+672 silly cache add   type: 'version' }
+673 silly addNamed http-proxy@1.15.2
+674 verbose addNamed "1.15.2" is a plain semver version for http-proxy
+675 silly mapToRegistry name http-proxy
+676 silly mapToRegistry using default registry
+677 silly mapToRegistry registry https://registry.npmjs.org/
+678 silly mapToRegistry data Result {
+678 silly mapToRegistry   raw: 'http-proxy',
+678 silly mapToRegistry   scope: null,
+678 silly mapToRegistry   escapedName: 'http-proxy',
+678 silly mapToRegistry   name: 'http-proxy',
+678 silly mapToRegistry   rawSpec: '',
+678 silly mapToRegistry   spec: 'latest',
+678 silly mapToRegistry   type: 'tag' }
+679 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+680 verbose addNameVersion registry:https://registry.npmjs.org/http-proxy not in flight; fetching
+681 silly resolveWithNewModule socket.io-client@1.6.0 checking installable status
+682 silly cache add args [ 'socket.io-client@1.6.0', null ]
+683 verbose cache add spec socket.io-client@1.6.0
+684 silly cache add parsed spec Result {
+684 silly cache add   raw: 'socket.io-client@1.6.0',
+684 silly cache add   scope: null,
+684 silly cache add   escapedName: 'socket.io-client',
+684 silly cache add   name: 'socket.io-client',
+684 silly cache add   rawSpec: '1.6.0',
+684 silly cache add   spec: '1.6.0',
+684 silly cache add   type: 'version' }
+685 silly addNamed socket.io-client@1.6.0
+686 verbose addNamed "1.6.0" is a plain semver version for socket.io-client
+687 silly mapToRegistry name socket.io-client
+688 silly mapToRegistry using default registry
+689 silly mapToRegistry registry https://registry.npmjs.org/
+690 silly mapToRegistry data Result {
+690 silly mapToRegistry   raw: 'socket.io-client',
+690 silly mapToRegistry   scope: null,
+690 silly mapToRegistry   escapedName: 'socket.io-client',
+690 silly mapToRegistry   name: 'socket.io-client',
+690 silly mapToRegistry   rawSpec: '',
+690 silly mapToRegistry   spec: 'latest',
+690 silly mapToRegistry   type: 'tag' }
+691 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+692 verbose addNameVersion registry:https://registry.npmjs.org/socket.io-client not in flight; fetching
+693 silly resolveWithNewModule localtunnel@1.8.2 checking installable status
+694 silly cache add args [ 'localtunnel@1.8.2', null ]
+695 verbose cache add spec localtunnel@1.8.2
+696 silly cache add parsed spec Result {
+696 silly cache add   raw: 'localtunnel@1.8.2',
+696 silly cache add   scope: null,
+696 silly cache add   escapedName: 'localtunnel',
+696 silly cache add   name: 'localtunnel',
+696 silly cache add   rawSpec: '1.8.2',
+696 silly cache add   spec: '1.8.2',
+696 silly cache add   type: 'version' }
+697 silly addNamed localtunnel@1.8.2
+698 verbose addNamed "1.8.2" is a plain semver version for localtunnel
+699 silly mapToRegistry name localtunnel
+700 silly mapToRegistry using default registry
+701 silly mapToRegistry registry https://registry.npmjs.org/
+702 silly mapToRegistry data Result {
+702 silly mapToRegistry   raw: 'localtunnel',
+702 silly mapToRegistry   scope: null,
+702 silly mapToRegistry   escapedName: 'localtunnel',
+702 silly mapToRegistry   name: 'localtunnel',
+702 silly mapToRegistry   rawSpec: '',
+702 silly mapToRegistry   spec: 'latest',
+702 silly mapToRegistry   type: 'tag' }
+703 silly mapToRegistry uri https://registry.npmjs.org/localtunnel
+704 verbose addNameVersion registry:https://registry.npmjs.org/localtunnel not in flight; fetching
+705 silly resolveWithNewModule immutable@3.8.1 checking installable status
+706 silly cache add args [ 'immutable@3.8.1', null ]
+707 verbose cache add spec immutable@3.8.1
+708 silly cache add parsed spec Result {
+708 silly cache add   raw: 'immutable@3.8.1',
+708 silly cache add   scope: null,
+708 silly cache add   escapedName: 'immutable',
+708 silly cache add   name: 'immutable',
+708 silly cache add   rawSpec: '3.8.1',
+708 silly cache add   spec: '3.8.1',
+708 silly cache add   type: 'version' }
+709 silly addNamed immutable@3.8.1
+710 verbose addNamed "3.8.1" is a plain semver version for immutable
+711 silly mapToRegistry name immutable
+712 silly mapToRegistry using default registry
+713 silly mapToRegistry registry https://registry.npmjs.org/
+714 silly mapToRegistry data Result {
+714 silly mapToRegistry   raw: 'immutable',
+714 silly mapToRegistry   scope: null,
+714 silly mapToRegistry   escapedName: 'immutable',
+714 silly mapToRegistry   name: 'immutable',
+714 silly mapToRegistry   rawSpec: '',
+714 silly mapToRegistry   spec: 'latest',
+714 silly mapToRegistry   type: 'tag' }
+715 silly mapToRegistry uri https://registry.npmjs.org/immutable
+716 verbose addNameVersion registry:https://registry.npmjs.org/immutable not in flight; fetching
+717 silly resolveWithNewModule qs@6.2.1 checking installable status
+718 silly cache add args [ 'qs@6.2.1', null ]
+719 verbose cache add spec qs@6.2.1
+720 silly cache add parsed spec Result {
+720 silly cache add   raw: 'qs@6.2.1',
+720 silly cache add   scope: null,
+720 silly cache add   escapedName: 'qs',
+720 silly cache add   name: 'qs',
+720 silly cache add   rawSpec: '6.2.1',
+720 silly cache add   spec: '6.2.1',
+720 silly cache add   type: 'version' }
+721 silly addNamed qs@6.2.1
+722 verbose addNamed "6.2.1" is a plain semver version for qs
+723 silly mapToRegistry name qs
+724 silly mapToRegistry using default registry
+725 silly mapToRegistry registry https://registry.npmjs.org/
+726 silly mapToRegistry data Result {
+726 silly mapToRegistry   raw: 'qs',
+726 silly mapToRegistry   scope: null,
+726 silly mapToRegistry   escapedName: 'qs',
+726 silly mapToRegistry   name: 'qs',
+726 silly mapToRegistry   rawSpec: '',
+726 silly mapToRegistry   spec: 'latest',
+726 silly mapToRegistry   type: 'tag' }
+727 silly mapToRegistry uri https://registry.npmjs.org/qs
+728 verbose addNameVersion registry:https://registry.npmjs.org/qs not in flight; fetching
+729 verbose get https://registry.npmjs.org/yargs not expired, no request
+730 verbose get https://registry.npmjs.org/serve-index not expired, no request
+731 verbose get https://registry.npmjs.org/http-proxy not expired, no request
+732 verbose get https://registry.npmjs.org/socket.io-client not expired, no request
+733 verbose get https://registry.npmjs.org/rx not expired, no request
+734 silly resolveWithNewModule ua-parser-js@0.7.12 checking installable status
+735 silly cache add args [ 'ua-parser-js@0.7.12', null ]
+736 verbose cache add spec ua-parser-js@0.7.12
+737 silly cache add parsed spec Result {
+737 silly cache add   raw: 'ua-parser-js@0.7.12',
+737 silly cache add   scope: null,
+737 silly cache add   escapedName: 'ua-parser-js',
+737 silly cache add   name: 'ua-parser-js',
+737 silly cache add   rawSpec: '0.7.12',
+737 silly cache add   spec: '0.7.12',
+737 silly cache add   type: 'version' }
+738 silly addNamed ua-parser-js@0.7.12
+739 verbose addNamed "0.7.12" is a plain semver version for ua-parser-js
+740 silly mapToRegistry name ua-parser-js
+741 silly mapToRegistry using default registry
+742 silly mapToRegistry registry https://registry.npmjs.org/
+743 silly mapToRegistry data Result {
+743 silly mapToRegistry   raw: 'ua-parser-js',
+743 silly mapToRegistry   scope: null,
+743 silly mapToRegistry   escapedName: 'ua-parser-js',
+743 silly mapToRegistry   name: 'ua-parser-js',
+743 silly mapToRegistry   rawSpec: '',
+743 silly mapToRegistry   spec: 'latest',
+743 silly mapToRegistry   type: 'tag' }
+744 silly mapToRegistry uri https://registry.npmjs.org/ua-parser-js
+745 verbose addNameVersion registry:https://registry.npmjs.org/ua-parser-js not in flight; fetching
+746 verbose get https://registry.npmjs.org/localtunnel not expired, no request
+747 verbose get https://registry.npmjs.org/immutable not expired, no request
+748 verbose get https://registry.npmjs.org/qs not expired, no request
+749 verbose get https://registry.npmjs.org/ua-parser-js not expired, no request
+750 silly cache afterAdd serve-index@1.8.0
+751 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\serve-index\1.8.0\package\package.json not in flight; writing
+752 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+753 silly cache afterAdd socket.io-client@1.6.0
+754 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\socket.io-client\1.6.0\package\package.json not in flight; writing
+755 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+756 silly cache afterAdd yargs@6.4.0
+757 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\yargs\6.4.0\package\package.json not in flight; writing
+758 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+759 silly cache afterAdd http-proxy@1.15.2
+760 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\http-proxy\1.15.2\package\package.json not in flight; writing
+761 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+762 silly cache afterAdd rx@4.1.0
+763 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\rx\4.1.0\package\package.json not in flight; writing
+764 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+765 silly cache afterAdd localtunnel@1.8.2
+766 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\localtunnel\1.8.2\package\package.json not in flight; writing
+767 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+768 silly cache afterAdd immutable@3.8.1
+769 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\immutable\3.8.1\package\package.json not in flight; writing
+770 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+771 silly cache afterAdd qs@6.2.1
+772 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\qs\6.2.1\package\package.json not in flight; writing
+773 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+774 silly cache afterAdd ua-parser-js@0.7.12
+775 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\ua-parser-js\0.7.12\package\package.json not in flight; writing
+776 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+777 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\socket.io-client\1.6.0\package\package.json written
+778 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\http-proxy\1.15.2\package\package.json written
+779 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\serve-index\1.8.0\package\package.json written
+780 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\yargs\6.4.0\package\package.json written
+781 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\rx\4.1.0\package\package.json written
+782 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\localtunnel\1.8.2\package\package.json written
+783 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\immutable\3.8.1\package\package.json written
+784 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\qs\6.2.1\package\package.json written
+785 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\ua-parser-js\0.7.12\package\package.json written
+786 info retry will retry, error on last attempt: Error: read ECONNRESET
+787 http 304 https://registry.npmjs.org/socket.io
+788 verbose headers { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+788 verbose headers   via: '1.1 varnish',
+788 verbose headers   'cache-control': 'max-age=300',
+788 verbose headers   etag: 'W/"5869a4bd-2427d"',
+788 verbose headers   age: '87',
+788 verbose headers   connection: 'keep-alive',
+788 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+788 verbose headers   'x-cache': 'HIT',
+788 verbose headers   'x-cache-hits': '1',
+788 verbose headers   'x-timer': 'S1484289009.793529,VS0,VE0',
+788 verbose headers   vary: 'Accept-Encoding' }
+789 silly get cb [ 304,
+789 silly get   { date: 'Fri, 13 Jan 2017 06:30:09 GMT',
+789 silly get     via: '1.1 varnish',
+789 silly get     'cache-control': 'max-age=300',
+789 silly get     etag: 'W/"5869a4bd-2427d"',
+789 silly get     age: '87',
+789 silly get     connection: 'keep-alive',
+789 silly get     'x-served-by': 'cache-itm7425-ITM',
+789 silly get     'x-cache': 'HIT',
+789 silly get     'x-cache-hits': '1',
+789 silly get     'x-timer': 'S1484289009.793529,VS0,VE0',
+789 silly get     vary: 'Accept-Encoding' } ]
+790 verbose etag https://registry.npmjs.org/socket.io from cache
+791 verbose get saving socket.io to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\socket.io\.cache.json
+792 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+793 silly resolveWithNewModule socket.io@1.6.0 checking installable status
+794 silly cache add args [ 'socket.io@1.6.0', null ]
+795 verbose cache add spec socket.io@1.6.0
+796 silly cache add parsed spec Result {
+796 silly cache add   raw: 'socket.io@1.6.0',
+796 silly cache add   scope: null,
+796 silly cache add   escapedName: 'socket.io',
+796 silly cache add   name: 'socket.io',
+796 silly cache add   rawSpec: '1.6.0',
+796 silly cache add   spec: '1.6.0',
+796 silly cache add   type: 'version' }
+797 silly addNamed socket.io@1.6.0
+798 verbose addNamed "1.6.0" is a plain semver version for socket.io
+799 silly mapToRegistry name socket.io
+800 silly mapToRegistry using default registry
+801 silly mapToRegistry registry https://registry.npmjs.org/
+802 silly mapToRegistry data Result {
+802 silly mapToRegistry   raw: 'socket.io',
+802 silly mapToRegistry   scope: null,
+802 silly mapToRegistry   escapedName: 'socket.io',
+802 silly mapToRegistry   name: 'socket.io',
+802 silly mapToRegistry   rawSpec: '',
+802 silly mapToRegistry   spec: 'latest',
+802 silly mapToRegistry   type: 'tag' }
+803 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+804 verbose addNameVersion registry:https://registry.npmjs.org/socket.io not in flight; fetching
+805 verbose get https://registry.npmjs.org/socket.io not expired, no request
+806 silly cache afterAdd socket.io@1.6.0
+807 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\socket.io\1.6.0\package\package.json not in flight; writing
+808 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+809 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\socket.io\1.6.0\package\package.json written
+810 http 304 https://registry.npmjs.org/server-destroy
+811 verbose headers { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+811 verbose headers   via: '1.1 varnish',
+811 verbose headers   'cache-control': 'max-age=300',
+811 verbose headers   etag: 'W/"555c34d9-b4c"',
+811 verbose headers   age: '164',
+811 verbose headers   connection: 'keep-alive',
+811 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+811 verbose headers   'x-cache': 'HIT',
+811 verbose headers   'x-cache-hits': '2',
+811 verbose headers   'x-timer': 'S1484289010.794595,VS0,VE0',
+811 verbose headers   vary: 'Accept-Encoding' }
+812 silly get cb [ 304,
+812 silly get   { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+812 silly get     via: '1.1 varnish',
+812 silly get     'cache-control': 'max-age=300',
+812 silly get     etag: 'W/"555c34d9-b4c"',
+812 silly get     age: '164',
+812 silly get     connection: 'keep-alive',
+812 silly get     'x-served-by': 'cache-itm7421-ITM',
+812 silly get     'x-cache': 'HIT',
+812 silly get     'x-cache-hits': '2',
+812 silly get     'x-timer': 'S1484289010.794595,VS0,VE0',
+812 silly get     vary: 'Accept-Encoding' } ]
+813 verbose etag https://registry.npmjs.org/server-destroy from cache
+814 verbose get saving server-destroy to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\server-destroy\.cache.json
+815 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+816 http 304 https://registry.npmjs.org/connect
+817 verbose headers { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+817 verbose headers   via: '1.1 varnish',
+817 verbose headers   'cache-control': 'max-age=300',
+817 verbose headers   etag: 'W/"5864a303-524ee"',
+817 verbose headers   age: '150',
+817 verbose headers   connection: 'keep-alive',
+817 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+817 verbose headers   'x-cache': 'HIT',
+817 verbose headers   'x-cache-hits': '3',
+817 verbose headers   'x-timer': 'S1484289010.794082,VS0,VE0',
+817 verbose headers   vary: 'Accept-Encoding' }
+818 silly get cb [ 304,
+818 silly get   { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+818 silly get     via: '1.1 varnish',
+818 silly get     'cache-control': 'max-age=300',
+818 silly get     etag: 'W/"5864a303-524ee"',
+818 silly get     age: '150',
+818 silly get     connection: 'keep-alive',
+818 silly get     'x-served-by': 'cache-itm7424-ITM',
+818 silly get     'x-cache': 'HIT',
+818 silly get     'x-cache-hits': '3',
+818 silly get     'x-timer': 'S1484289010.794082,VS0,VE0',
+818 silly get     vary: 'Accept-Encoding' } ]
+819 verbose etag https://registry.npmjs.org/connect from cache
+820 verbose get saving connect to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\connect\.cache.json
+821 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+822 http 304 https://registry.npmjs.org/resp-modifier
+823 verbose headers { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+823 verbose headers   via: '1.1 varnish',
+823 verbose headers   'cache-control': 'max-age=300',
+823 verbose headers   etag: 'W/"5773fb68-97ed"',
+823 verbose headers   age: '4',
+823 verbose headers   connection: 'keep-alive',
+823 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+823 verbose headers   'x-cache': 'HIT',
+823 verbose headers   'x-cache-hits': '1',
+823 verbose headers   'x-timer': 'S1484289010.795019,VS0,VE0',
+823 verbose headers   vary: 'Accept-Encoding' }
+824 silly get cb [ 304,
+824 silly get   { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+824 silly get     via: '1.1 varnish',
+824 silly get     'cache-control': 'max-age=300',
+824 silly get     etag: 'W/"5773fb68-97ed"',
+824 silly get     age: '4',
+824 silly get     connection: 'keep-alive',
+824 silly get     'x-served-by': 'cache-itm7422-ITM',
+824 silly get     'x-cache': 'HIT',
+824 silly get     'x-cache-hits': '1',
+824 silly get     'x-timer': 'S1484289010.795019,VS0,VE0',
+824 silly get     vary: 'Accept-Encoding' } ]
+825 verbose etag https://registry.npmjs.org/resp-modifier from cache
+826 verbose get saving resp-modifier to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\resp-modifier\.cache.json
+827 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+828 silly resolveWithNewModule connect@3.5.0 checking installable status
+829 silly cache add args [ 'connect@3.5.0', null ]
+830 verbose cache add spec connect@3.5.0
+831 silly cache add parsed spec Result {
+831 silly cache add   raw: 'connect@3.5.0',
+831 silly cache add   scope: null,
+831 silly cache add   escapedName: 'connect',
+831 silly cache add   name: 'connect',
+831 silly cache add   rawSpec: '3.5.0',
+831 silly cache add   spec: '3.5.0',
+831 silly cache add   type: 'version' }
+832 silly addNamed connect@3.5.0
+833 verbose addNamed "3.5.0" is a plain semver version for connect
+834 silly mapToRegistry name connect
+835 silly mapToRegistry using default registry
+836 silly mapToRegistry registry https://registry.npmjs.org/
+837 silly mapToRegistry data Result {
+837 silly mapToRegistry   raw: 'connect',
+837 silly mapToRegistry   scope: null,
+837 silly mapToRegistry   escapedName: 'connect',
+837 silly mapToRegistry   name: 'connect',
+837 silly mapToRegistry   rawSpec: '',
+837 silly mapToRegistry   spec: 'latest',
+837 silly mapToRegistry   type: 'tag' }
+838 silly mapToRegistry uri https://registry.npmjs.org/connect
+839 verbose addNameVersion registry:https://registry.npmjs.org/connect not in flight; fetching
+840 silly resolveWithNewModule server-destroy@1.0.1 checking installable status
+841 silly cache add args [ 'server-destroy@1.0.1', null ]
+842 verbose cache add spec server-destroy@1.0.1
+843 silly cache add parsed spec Result {
+843 silly cache add   raw: 'server-destroy@1.0.1',
+843 silly cache add   scope: null,
+843 silly cache add   escapedName: 'server-destroy',
+843 silly cache add   name: 'server-destroy',
+843 silly cache add   rawSpec: '1.0.1',
+843 silly cache add   spec: '1.0.1',
+843 silly cache add   type: 'version' }
+844 silly addNamed server-destroy@1.0.1
+845 verbose addNamed "1.0.1" is a plain semver version for server-destroy
+846 silly mapToRegistry name server-destroy
+847 silly mapToRegistry using default registry
+848 silly mapToRegistry registry https://registry.npmjs.org/
+849 silly mapToRegistry data Result {
+849 silly mapToRegistry   raw: 'server-destroy',
+849 silly mapToRegistry   scope: null,
+849 silly mapToRegistry   escapedName: 'server-destroy',
+849 silly mapToRegistry   name: 'server-destroy',
+849 silly mapToRegistry   rawSpec: '',
+849 silly mapToRegistry   spec: 'latest',
+849 silly mapToRegistry   type: 'tag' }
+850 silly mapToRegistry uri https://registry.npmjs.org/server-destroy
+851 verbose addNameVersion registry:https://registry.npmjs.org/server-destroy not in flight; fetching
+852 silly resolveWithNewModule resp-modifier@6.0.2 checking installable status
+853 silly cache add args [ 'resp-modifier@6.0.2', null ]
+854 verbose cache add spec resp-modifier@6.0.2
+855 silly cache add parsed spec Result {
+855 silly cache add   raw: 'resp-modifier@6.0.2',
+855 silly cache add   scope: null,
+855 silly cache add   escapedName: 'resp-modifier',
+855 silly cache add   name: 'resp-modifier',
+855 silly cache add   rawSpec: '6.0.2',
+855 silly cache add   spec: '6.0.2',
+855 silly cache add   type: 'version' }
+856 silly addNamed resp-modifier@6.0.2
+857 verbose addNamed "6.0.2" is a plain semver version for resp-modifier
+858 silly mapToRegistry name resp-modifier
+859 silly mapToRegistry using default registry
+860 silly mapToRegistry registry https://registry.npmjs.org/
+861 silly mapToRegistry data Result {
+861 silly mapToRegistry   raw: 'resp-modifier',
+861 silly mapToRegistry   scope: null,
+861 silly mapToRegistry   escapedName: 'resp-modifier',
+861 silly mapToRegistry   name: 'resp-modifier',
+861 silly mapToRegistry   rawSpec: '',
+861 silly mapToRegistry   spec: 'latest',
+861 silly mapToRegistry   type: 'tag' }
+862 silly mapToRegistry uri https://registry.npmjs.org/resp-modifier
+863 verbose addNameVersion registry:https://registry.npmjs.org/resp-modifier not in flight; fetching
+864 verbose get https://registry.npmjs.org/connect not expired, no request
+865 verbose get https://registry.npmjs.org/server-destroy not expired, no request
+866 verbose get https://registry.npmjs.org/resp-modifier not expired, no request
+867 silly cache afterAdd connect@3.5.0
+868 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\connect\3.5.0\package\package.json not in flight; writing
+869 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+870 silly cache afterAdd server-destroy@1.0.1
+871 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\server-destroy\1.0.1\package\package.json not in flight; writing
+872 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+873 silly cache afterAdd resp-modifier@6.0.2
+874 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\resp-modifier\6.0.2\package\package.json not in flight; writing
+875 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+876 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\resp-modifier\6.0.2\package\package.json written
+877 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\connect\3.5.0\package\package.json written
+878 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\server-destroy\1.0.1\package\package.json written
+879 http 304 https://registry.npmjs.org/dev-ip
+880 verbose headers { date: 'Fri, 13 Jan 2017 06:30:11 GMT',
+880 verbose headers   via: '1.1 varnish',
+880 verbose headers   'cache-control': 'max-age=300',
+880 verbose headers   etag: 'W/"54a7f58d-337e"',
+880 verbose headers   age: '5',
+880 verbose headers   connection: 'keep-alive',
+880 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+880 verbose headers   'x-cache': 'HIT',
+880 verbose headers   'x-cache-hits': '2',
+880 verbose headers   'x-timer': 'S1484289011.783001,VS0,VE0',
+880 verbose headers   vary: 'Accept-Encoding' }
+881 silly get cb [ 304,
+881 silly get   { date: 'Fri, 13 Jan 2017 06:30:11 GMT',
+881 silly get     via: '1.1 varnish',
+881 silly get     'cache-control': 'max-age=300',
+881 silly get     etag: 'W/"54a7f58d-337e"',
+881 silly get     age: '5',
+881 silly get     connection: 'keep-alive',
+881 silly get     'x-served-by': 'cache-itm7424-ITM',
+881 silly get     'x-cache': 'HIT',
+881 silly get     'x-cache-hits': '2',
+881 silly get     'x-timer': 'S1484289011.783001,VS0,VE0',
+881 silly get     vary: 'Accept-Encoding' } ]
+882 verbose etag https://registry.npmjs.org/dev-ip from cache
+883 verbose get saving dev-ip to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\dev-ip\.cache.json
+884 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+885 silly resolveWithNewModule dev-ip@1.0.1 checking installable status
+886 silly cache add args [ 'dev-ip@^1.0.1', null ]
+887 verbose cache add spec dev-ip@^1.0.1
+888 silly cache add parsed spec Result {
+888 silly cache add   raw: 'dev-ip@^1.0.1',
+888 silly cache add   scope: null,
+888 silly cache add   escapedName: 'dev-ip',
+888 silly cache add   name: 'dev-ip',
+888 silly cache add   rawSpec: '^1.0.1',
+888 silly cache add   spec: '>=1.0.1 <2.0.0',
+888 silly cache add   type: 'range' }
+889 silly addNamed dev-ip@>=1.0.1 <2.0.0
+890 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for dev-ip
+891 silly addNameRange { name: 'dev-ip', range: '>=1.0.1 <2.0.0', hasData: false }
+892 silly mapToRegistry name dev-ip
+893 silly mapToRegistry using default registry
+894 silly mapToRegistry registry https://registry.npmjs.org/
+895 silly mapToRegistry data Result {
+895 silly mapToRegistry   raw: 'dev-ip',
+895 silly mapToRegistry   scope: null,
+895 silly mapToRegistry   escapedName: 'dev-ip',
+895 silly mapToRegistry   name: 'dev-ip',
+895 silly mapToRegistry   rawSpec: '',
+895 silly mapToRegistry   spec: 'latest',
+895 silly mapToRegistry   type: 'tag' }
+896 silly mapToRegistry uri https://registry.npmjs.org/dev-ip
+897 verbose addNameRange registry:https://registry.npmjs.org/dev-ip not in flight; fetching
+898 verbose get https://registry.npmjs.org/dev-ip not expired, no request
+899 silly addNameRange number 2 { name: 'dev-ip', range: '>=1.0.1 <2.0.0', hasData: true }
+900 silly addNameRange versions [ 'dev-ip',
+900 silly addNameRange   [ '0.1.0',
+900 silly addNameRange     '0.1.1',
+900 silly addNameRange     '0.1.2',
+900 silly addNameRange     '0.1.3',
+900 silly addNameRange     '0.1.4',
+900 silly addNameRange     '0.1.5',
+900 silly addNameRange     '0.1.6',
+900 silly addNameRange     '0.1.7',
+900 silly addNameRange     '1.0.0',
+900 silly addNameRange     '1.0.1' ] ]
+901 silly addNamed dev-ip@1.0.1
+902 verbose addNamed "1.0.1" is a plain semver version for dev-ip
+903 silly cache afterAdd dev-ip@1.0.1
+904 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\dev-ip\1.0.1\package\package.json not in flight; writing
+905 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+906 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\dev-ip\1.0.1\package\package.json written
+907 http 304 https://registry.npmjs.org/serve-static
+908 verbose headers { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+908 verbose headers   via: '1.1 varnish',
+908 verbose headers   'cache-control': 'max-age=300',
+908 verbose headers   etag: 'W/"584eb0c4-13384"',
+908 verbose headers   age: '89',
+908 verbose headers   connection: 'keep-alive',
+908 verbose headers   'x-served-by': 'cache-itm7424-ITM',
+908 verbose headers   'x-cache': 'HIT',
+908 verbose headers   'x-cache-hits': '3',
+908 verbose headers   'x-timer': 'S1484289010.794554,VS0,VE0',
+908 verbose headers   vary: 'Accept-Encoding' }
+909 silly get cb [ 304,
+909 silly get   { date: 'Fri, 13 Jan 2017 06:30:10 GMT',
+909 silly get     via: '1.1 varnish',
+909 silly get     'cache-control': 'max-age=300',
+909 silly get     etag: 'W/"584eb0c4-13384"',
+909 silly get     age: '89',
+909 silly get     connection: 'keep-alive',
+909 silly get     'x-served-by': 'cache-itm7424-ITM',
+909 silly get     'x-cache': 'HIT',
+909 silly get     'x-cache-hits': '3',
+909 silly get     'x-timer': 'S1484289010.794554,VS0,VE0',
+909 silly get     vary: 'Accept-Encoding' } ]
+910 verbose etag https://registry.npmjs.org/serve-static from cache
+911 verbose get saving serve-static to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\serve-static\.cache.json
+912 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+913 silly resolveWithNewModule serve-static@1.11.1 checking installable status
+914 silly cache add args [ 'serve-static@1.11.1', null ]
+915 verbose cache add spec serve-static@1.11.1
+916 silly cache add parsed spec Result {
+916 silly cache add   raw: 'serve-static@1.11.1',
+916 silly cache add   scope: null,
+916 silly cache add   escapedName: 'serve-static',
+916 silly cache add   name: 'serve-static',
+916 silly cache add   rawSpec: '1.11.1',
+916 silly cache add   spec: '1.11.1',
+916 silly cache add   type: 'version' }
+917 silly addNamed serve-static@1.11.1
+918 verbose addNamed "1.11.1" is a plain semver version for serve-static
+919 silly mapToRegistry name serve-static
+920 silly mapToRegistry using default registry
+921 silly mapToRegistry registry https://registry.npmjs.org/
+922 silly mapToRegistry data Result {
+922 silly mapToRegistry   raw: 'serve-static',
+922 silly mapToRegistry   scope: null,
+922 silly mapToRegistry   escapedName: 'serve-static',
+922 silly mapToRegistry   name: 'serve-static',
+922 silly mapToRegistry   rawSpec: '',
+922 silly mapToRegistry   spec: 'latest',
+922 silly mapToRegistry   type: 'tag' }
+923 silly mapToRegistry uri https://registry.npmjs.org/serve-static
+924 verbose addNameVersion registry:https://registry.npmjs.org/serve-static not in flight; fetching
+925 verbose get https://registry.npmjs.org/serve-static not expired, no request
+926 silly cache afterAdd serve-static@1.11.1
+927 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\serve-static\1.11.1\package\package.json not in flight; writing
+928 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+929 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\serve-static\1.11.1\package\package.json written
+930 info attempt registry request try #2 at 14:30:25
+931 verbose etag W/"56581aa7-338f"
+932 verbose lastModified Fri, 27 Nov 2015 08:56:07 GMT
+933 http request GET https://registry.npmjs.org/easy-extender
+934 http 304 https://registry.npmjs.org/easy-extender
+935 verbose headers { date: 'Fri, 13 Jan 2017 06:30:20 GMT',
+935 verbose headers   via: '1.1 varnish',
+935 verbose headers   'cache-control': 'max-age=300',
+935 verbose headers   etag: 'W/"56581aa7-338f"',
+935 verbose headers   age: '174',
+935 verbose headers   connection: 'keep-alive',
+935 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+935 verbose headers   'x-cache': 'HIT',
+935 verbose headers   'x-cache-hits': '2',
+935 verbose headers   'x-timer': 'S1484289020.082903,VS0,VE0',
+935 verbose headers   vary: 'Accept-Encoding' }
+936 silly get cb [ 304,
+936 silly get   { date: 'Fri, 13 Jan 2017 06:30:20 GMT',
+936 silly get     via: '1.1 varnish',
+936 silly get     'cache-control': 'max-age=300',
+936 silly get     etag: 'W/"56581aa7-338f"',
+936 silly get     age: '174',
+936 silly get     connection: 'keep-alive',
+936 silly get     'x-served-by': 'cache-itm7427-ITM',
+936 silly get     'x-cache': 'HIT',
+936 silly get     'x-cache-hits': '2',
+936 silly get     'x-timer': 'S1484289020.082903,VS0,VE0',
+936 silly get     vary: 'Accept-Encoding' } ]
+937 verbose etag https://registry.npmjs.org/easy-extender from cache
+938 verbose get saving easy-extender to C:\Users\shiguoqing\AppData\Roaming\npm-cache\registry.npmjs.org\easy-extender\.cache.json
+939 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+940 silly resolveWithNewModule easy-extender@2.3.2 checking installable status
+941 silly cache add args [ 'easy-extender@2.3.2', null ]
+942 verbose cache add spec easy-extender@2.3.2
+943 silly cache add parsed spec Result {
+943 silly cache add   raw: 'easy-extender@2.3.2',
+943 silly cache add   scope: null,
+943 silly cache add   escapedName: 'easy-extender',
+943 silly cache add   name: 'easy-extender',
+943 silly cache add   rawSpec: '2.3.2',
+943 silly cache add   spec: '2.3.2',
+943 silly cache add   type: 'version' }
+944 silly addNamed easy-extender@2.3.2
+945 verbose addNamed "2.3.2" is a plain semver version for easy-extender
+946 silly mapToRegistry name easy-extender
+947 silly mapToRegistry using default registry
+948 silly mapToRegistry registry https://registry.npmjs.org/
+949 silly mapToRegistry data Result {
+949 silly mapToRegistry   raw: 'easy-extender',
+949 silly mapToRegistry   scope: null,
+949 silly mapToRegistry   escapedName: 'easy-extender',
+949 silly mapToRegistry   name: 'easy-extender',
+949 silly mapToRegistry   rawSpec: '',
+949 silly mapToRegistry   spec: 'latest',
+949 silly mapToRegistry   type: 'tag' }
+950 silly mapToRegistry uri https://registry.npmjs.org/easy-extender
+951 verbose addNameVersion registry:https://registry.npmjs.org/easy-extender not in flight; fetching
+952 verbose get https://registry.npmjs.org/easy-extender not expired, no request
+953 silly cache afterAdd easy-extender@2.3.2
+954 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\easy-extender\2.3.2\package\package.json not in flight; writing
+955 verbose correctMkdir C:\Users\shiguoqing\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+956 verbose afterAdd C:\Users\shiguoqing\AppData\Roaming\npm-cache\easy-extender\2.3.2\package\package.json written
+957 info retry will retry, error on last attempt: Error: read ECONNRESET
+958 silly fetchAndShaCheck shasum 9e7994004d463e55a024bdd149583b11ad8f87f3
+959 silly rollbackFailedOptional Starting
+960 silly rollbackFailedOptional Finishing
+961 silly runTopLevelLifecycles Finishing
+962 silly install printInstalled
+963 verbose stack Error: shasum check failed for C:\Users\SHIGUO~1\AppData\Local\Temp\npm-9560-75f834c7\registry.npmjs.org\browser-sync-ui\-\browser-sync-ui-0.6.2.tgz
+963 verbose stack Expected: 9e7994004d463e55a024bdd149583b11ad8f87f3
+963 verbose stack Actual:   0e78078a9983ea1adfb717d3e99ea2d48fc3678e
+963 verbose stack From:     https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-0.6.2.tgz
+963 verbose stack     at C:\Users\shiguoqing\AppData\Roaming\npm\node_modules\npm\node_modules\sha\index.js:25:8
+963 verbose stack     at ReadStream.<anonymous> (C:\Users\shiguoqing\AppData\Roaming\npm\node_modules\npm\node_modules\sha\index.js:72:7)
+963 verbose stack     at emitNone (events.js:91:20)
+963 verbose stack     at ReadStream.emit (events.js:185:7)
+963 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+963 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+963 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+964 verbose cwd C:\Code\h3\gulp_example
+965 error Windows_NT 10.0.10586
+966 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\shiguoqing\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "browser-sync" "-save-dev"
+967 error node v6.9.1
+968 error npm  v3.10.8
+969 error shasum check failed for C:\Users\SHIGUO~1\AppData\Local\Temp\npm-9560-75f834c7\registry.npmjs.org\browser-sync-ui\-\browser-sync-ui-0.6.2.tgz
+969 error Expected: 9e7994004d463e55a024bdd149583b11ad8f87f3
+969 error Actual:   0e78078a9983ea1adfb717d3e99ea2d48fc3678e
+969 error From:     https://registry.npmjs.org/browser-sync-ui/-/browser-sync-ui-0.6.2.tgz
+970 error If you need help, you may report this error at:
+970 error     <https://github.com/npm/npm/issues>
+971 verbose exit [ 1, true ]
